@@ -1,0 +1,29 @@
+	(1)
+	mean
+VARIABLES	(sd)
+	
+vol	0.156
+ageint	67.16
+gender	1.564
+_Isphus_3	0.0692
+_Isphus_4	0.178
+_Isphus_5	0.356
+_Isphus_6	0.284
+averageGDP	99.79
+_IcountryH_2	0.0853
+_IcountryH_3	0.0547
+_IcountryH_4	0.0579
+_IcountryH_5	0.0647
+_IcountryH_6	0.0724
+_IcountryH_7	0.0298
+_IcountryH_8	0.0779
+_IcountryH_10	0.0826
+_IcountryH_11	0.0572
+_IcountryH_12	0.0411
+_IcountryH_13	0.0712
+_IcountryH_14	0.0268
+_IcountryH_18	0.0246
+_IcountryH_19	0.0619
+_IcountryH_20	0.0826
+	
+Observations	47,377
