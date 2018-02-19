@@ -1,0 +1,34 @@
+	(1)
+VARIABLES	casp
+	
+vol	0.501
+	(1.146)
+v1volrate	4.951
+	(16.16)
+v1volrate2	-8.392
+	(43.14)
+ageint	-0.0133
+	(0.00899)
+gender	-0.00353
+	(0.0861)
+yedu_av	0.115**
+	(0.0437)
+_Isphus_3	6.209***
+	(0.450)
+_Isphus_4	4.870***
+	(0.588)
+_Isphus_5	3.844***
+	(0.351)
+_Isphus_6	2.132***
+	(0.288)
+averageGDP	0.0978*
+	(0.0479)
+avGDP2	-0.000236
+	(0.000140)
+Constant	27.12***
+	(3.636)
+	
+Observations	46,485
+R-squared	0.186
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

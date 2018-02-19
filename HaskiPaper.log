@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.1)  15 FEB 2018 22:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.1)  19 FEB 2018 18:12
 entering extended mode
 **./HaskiPaper.tex
 (HaskiPaper.tex
@@ -1180,6 +1180,9 @@ Package: abstract 2009/06/08 v1.2a configurable abstracts
 \absparsep=\skip70
 ) (HaskiPaper.aux
 
+LaTeX Warning: Label `fig:casp_ols' multiply defined.
+
+
 LaTeX Warning: Label `tab:addlabel' multiply defined.
 
 
@@ -1386,7 +1389,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
 pdfTeX warning: pdflatex (file ./Kendall_h.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<Kendall_h.pdf, id=142, 258.36525pt x 187.902pt>
+<Kendall_h.pdf, id=131, 258.36525pt x 187.902pt>
 File: Kendall_h.pdf Graphic file (type pdf)
  <use Kendall_h.pdf>
 Package pdftex.def Info: Kendall_h.pdf used on input line 262.
@@ -1395,7 +1398,7 @@ Package pdftex.def Info: Kendall_h.pdf used on input line 262.
 
 pdfTeX warning: pdflatex (file ./Kendall_casp.pdf): PDF inclusion: found PDF ve
 rsion <1.6>, but at most version <1.5> allowed
-<Kendall_casp.pdf, id=143, 258.36525pt x 187.902pt>
+<Kendall_casp.pdf, id=132, 258.36525pt x 187.902pt>
 File: Kendall_casp.pdf Graphic file (type pdf)
  <use Kendall_casp.pdf>
 Package pdftex.def Info: Kendall_casp.pdf used on input line 263.
@@ -1420,7 +1423,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
 pdfTeX warning: pdflatex (file ./rel_casp.pdf): PDF inclusion: found PDF versio
 n <1.6>, but at most version <1.5> allowed
-<rel_casp.pdf, id=183, 258.36525pt x 187.902pt>
+<rel_casp.pdf, id=173, 258.36525pt x 187.902pt>
 File: rel_casp.pdf Graphic file (type pdf)
  <use rel_casp.pdf>
 Package pdftex.def Info: rel_casp.pdf used on input line 301.
@@ -1429,7 +1432,7 @@ Package pdftex.def Info: rel_casp.pdf used on input line 301.
 
 pdfTeX warning: pdflatex (file ./abs_casp.pdf): PDF inclusion: found PDF versio
 n <1.6>, but at most version <1.5> allowed
-<abs_casp.pdf, id=184, 258.36525pt x 187.902pt>
+<abs_casp.pdf, id=174, 258.36525pt x 187.902pt>
 File: abs_casp.pdf Graphic file (type pdf)
  <use abs_casp.pdf>
 Package pdftex.def Info: abs_casp.pdf used on input line 302.
@@ -1438,7 +1441,7 @@ Package pdftex.def Info: abs_casp.pdf used on input line 302.
 
 pdfTeX warning: pdflatex (file ./rel_health.pdf): PDF inclusion: found PDF vers
 ion <1.6>, but at most version <1.5> allowed
-<rel_health.pdf, id=185, 258.36525pt x 187.902pt>
+<rel_health.pdf, id=175, 258.36525pt x 187.902pt>
 File: rel_health.pdf Graphic file (type pdf)
  <use rel_health.pdf>
 Package pdftex.def Info: rel_health.pdf used on input line 303.
@@ -1447,7 +1450,7 @@ Package pdftex.def Info: rel_health.pdf used on input line 303.
 
 pdfTeX warning: pdflatex (file ./abs_health.pdf): PDF inclusion: found PDF vers
 ion <1.6>, but at most version <1.5> allowed
-<abs_health.pdf, id=186, 258.36525pt x 187.902pt>
+<abs_health.pdf, id=176, 258.36525pt x 187.902pt>
 File: abs_health.pdf Graphic file (type pdf)
  <use abs_health.pdf>
 Package pdftex.def Info: abs_health.pdf used on input line 304.
@@ -1457,16 +1460,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 301--307
 [][] [][]
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 313--315
-
- []
-
-[8 <./rel_casp.pdf> <./abs_casp.pdf> <./rel_health.pdf> <./abs_health.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
-
- []
-
+[7] [8 <./rel_casp.pdf> <./abs_casp.pdf> <./rel_health.pdf> <./abs_health.pdf>]
 
 Underfull \hbox (badness 10000) in paragraph at lines 324--325
 
@@ -1474,86 +1468,81 @@ Underfull \hbox (badness 10000) in paragraph at lines 324--325
 
 
 
-pdfTeX warning: pdflatex (file ./ols_abseffect.pdf): PDF inclusion: found PDF v
-ersion <1.6>, but at most version <1.5> allowed
-<ols_abseffect.pdf, id=248, 258.36525pt x 187.902pt>
-File: ols_abseffect.pdf Graphic file (type pdf)
- <use ols_abseffect.pdf>
-Package pdftex.def Info: ols_abseffect.pdf used on input line 381.
-(pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
-
-
-pdfTeX warning: pdflatex (file ./mlmQ_abseffect.pdf): PDF inclusion: found PDF 
-version <1.6>, but at most version <1.5> allowed
-<mlmQ_abseffect.pdf, id=249, 258.36525pt x 187.902pt>
-File: mlmQ_abseffect.pdf Graphic file (type pdf)
- <use mlmQ_abseffect.pdf>
-Package pdftex.def Info: mlmQ_abseffect.pdf used on input line 382.
+pdfTeX warning: pdflatex (file ./ols_margins.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<ols_margins.pdf, id=240, 258.36525pt x 187.902pt>
+File: ols_margins.pdf Graphic file (type pdf)
+ <use ols_margins.pdf>
+Package pdftex.def Info: ols_margins.pdf used on input line 349.
 (pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
 
 
 pdfTeX warning: pdflatex (file ./ols_fit.pdf): PDF inclusion: found PDF version
  <1.6>, but at most version <1.5> allowed
-<ols_fit.pdf, id=250, 258.36525pt x 187.902pt>
+<ols_fit.pdf, id=241, 258.36525pt x 187.902pt>
 File: ols_fit.pdf Graphic file (type pdf)
  <use ols_fit.pdf>
-Package pdftex.def Info: ols_fit.pdf used on input line 383.
+Package pdftex.def Info: ols_fit.pdf used on input line 350.
 (pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
 
 
-pdfTeX warning: pdflatex (file ./mlmQ_fit.pdf): PDF inclusion: found PDF versio
-n <1.6>, but at most version <1.5> allowed
-<mlmQ_fit.pdf, id=251, 258.36525pt x 187.902pt>
-File: mlmQ_fit.pdf Graphic file (type pdf)
- <use mlmQ_fit.pdf>
-Package pdftex.def Info: mlmQ_fit.pdf used on input line 384.
+pdfTeX warning: pdflatex (file ./abs_dcasp.pdf): PDF inclusion: found PDF versi
+on <1.6>, but at most version <1.5> allowed
+<abs_dcasp.pdf, id=242, 258.36525pt x 187.902pt>
+File: abs_dcasp.pdf Graphic file (type pdf)
+ <use abs_dcasp.pdf>
+Package pdftex.def Info: abs_dcasp.pdf used on input line 351.
 (pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
 
 
-pdfTeX warning: pdflatex (file ./ols_margins.pdf): PDF inclusion: found PDF ver
-sion <1.6>, but at most version <1.5> allowed
-<ols_margins.pdf, id=252, 258.36525pt x 187.902pt>
-File: ols_margins.pdf Graphic file (type pdf)
- <use ols_margins.pdf>
-Package pdftex.def Info: ols_margins.pdf used on input line 385.
+pdfTeX warning: pdflatex (file ./ols_fitcry.pdf): PDF inclusion: found PDF vers
+ion <1.6>, but at most version <1.5> allowed
+<ols_fitcry.pdf, id=243, 258.36525pt x 187.902pt>
+File: ols_fitcry.pdf Graphic file (type pdf)
+ <use ols_fitcry.pdf>
+Package pdftex.def Info: ols_fitcry.pdf used on input line 352.
 (pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
 
-
-pdfTeX warning: pdflatex (file ./mlmQ_margins.pdf): PDF inclusion: found PDF ve
-rsion <1.6>, but at most version <1.5> allowed
-<mlmQ_margins.pdf, id=253, 258.36525pt x 187.902pt>
-File: mlmQ_margins.pdf Graphic file (type pdf)
- <use mlmQ_margins.pdf>
-Package pdftex.def Info: mlmQ_margins.pdf used on input line 386.
-(pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 381--389
-[][] [][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 381--389
+Underfull \hbox (badness 10000) in paragraph at lines 349--355
 [][] [][]
  []
 
 [9]
-Overfull \vbox (15.12431pt too high) has occurred while \output is active []
-
-
-[10 <./ols_abseffect.pdf> <./mlmQ_abseffect.pdf> <./ols_fit.pdf> <./mlmQ_fit.pd
-f> <./ols_margins.pdf> <./mlmQ_margins.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
 
  []
 
-[11]
+[10 <./ols_margins.pdf> <./ols_fit.pdf> <./abs_dcasp.pdf> <./ols_fitcry.pdf>]
+
+pdfTeX warning: pdflatex (file ./mlmQ_fit0.pdf): PDF inclusion: found PDF versi
+on <1.6>, but at most version <1.5> allowed
+<mlmQ_fit0.pdf, id=300, 258.36525pt x 187.902pt>
+File: mlmQ_fit0.pdf Graphic file (type pdf)
+ <use mlmQ_fit0.pdf>
+Package pdftex.def Info: mlmQ_fit0.pdf used on input line 402.
+(pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
+
+
+pdfTeX warning: pdflatex (file ./mlmQ_fit1.pdf): PDF inclusion: found PDF versi
+on <1.6>, but at most version <1.5> allowed
+<mlmQ_fit1.pdf, id=301, 258.36525pt x 187.902pt>
+File: mlmQ_fit1.pdf Graphic file (type pdf)
+ <use mlmQ_fit1.pdf>
+Package pdftex.def Info: mlmQ_fit1.pdf used on input line 403.
+(pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
+
+ []
+
+[11 <./mlmQ_fit0.pdf> <./mlmQ_fit1.pdf>] [12]
 
 pdfTeX warning: pdflatex (file ./oecd_age50p.pdf): PDF inclusion: found PDF ver
 sion <1.6>, but at most version <1.5> allowed
 <oecd_age50p.pdf, id=336, 258.36525pt x 187.902pt>
 File: oecd_age50p.pdf Graphic file (type pdf)
  <use oecd_age50p.pdf>
-Package pdftex.def Info: oecd_age50p.pdf used on input line 503.
+Package pdftex.def Info: oecd_age50p.pdf used on input line 520.
 (pdftex.def)             Requested size: 298.13089pt x 216.81pt.
 
 
@@ -1562,22 +1551,22 @@ on <1.6>, but at most version <1.5> allowed
 <hist_casp.pdf, id=337, 258.36525pt x 187.902pt>
 File: hist_casp.pdf Graphic file (type pdf)
  <use hist_casp.pdf>
-Package pdftex.def Info: hist_casp.pdf used on input line 512.
+Package pdftex.def Info: hist_casp.pdf used on input line 529.
 (pdftex.def)             Requested size: 298.13089pt x 216.81pt.
- [12 <./oecd_age50p.pdf>] (casp.tex
+ [13 <./oecd_age50p.pdf>] (casp.tex
 Overfull \hbox (52.961pt too wide) in paragraph at lines 5--29
  [][][] 
  []
 
-) (sphus.tex) [13 <./hist_casp.pdf>] (tau_health.tex) (tau_lifesat.tex)
-(regHm3.tex) [14] [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 590.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 590.
+) (sphus.tex) [14 <./hist_casp.pdf>] (tau_health.tex) (tau_lifesat.tex)
+(regHa1.tex) [15] (regHm3.tex) [16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 610.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 610.
  (HaskiPaper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 590.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 590.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 610.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 610.
 Package rerunfilecheck Info: File `HaskiPaper.out' has not changed.
-(rerunfilecheck)             Checksum: 0C552EEC9C3FA6A843FBCE9BB984A1CF;594.
+(rerunfilecheck)             Checksum: F2CCBDCA4E93A3C9CD87F9B2A271CC30;264.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1585,13 +1574,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 590.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 610.
  ) 
 Here is how much of TeX's memory you used:
- 22728 strings out of 493323
- 434016 string characters out of 3139034
- 596458 words of memory out of 3000000
- 25697 multiletter control sequences out of 15000+200000
+ 22739 strings out of 493323
+ 434062 string characters out of 3139034
+ 593533 words of memory out of 3000000
+ 25698 multiletter control sequences out of 15000+200000
  20567 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,87p,2053b,671s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1612,9 +1601,9 @@ ts/type1/public/pl/plss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl
 /plssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plssi10.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plssi8.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/pl/plsy10.pfb>
-Output written on HaskiPaper.pdf (15 pages, 1033027 bytes).
+Output written on HaskiPaper.pdf (16 pages, 1048112 bytes).
 PDF statistics:
- 458 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
- 147 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 460 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
