@@ -185,7 +185,7 @@ Higher rates of volunteering in  highly developed countries are possibly due to 
 
 Quality of life  of elderly has become a major social issue since they are most
 likely to experience negative events. \textbf{--not sure what that meant, either
-leaborate or paraphraze or drop}
+leaborate or paraphraze or drop--i guess you meant that elderly are dying and so unhappy,but so what thats obvious and isnt relevant anyway,id just drop it}
 The assessment of elderly QoL faces is particularly challenging.\textbf{--why?} In response to this a measure of QoL for individuals aged 65 to 75, the so-called CASP-19, based on the needs-satisfaction theory (Maslow, 1943; Doyal and Gough, 1991 has been proposed. This scale includes 19 Likert-type items reflecting four different dimensions of QoL: Control, Autonomy, Self-realization, and Pleasure. A shorter version with 12 items, the so-called CASP-12, was proposed and tested in (Wiggins et al., 2008). A 12-item version of the CASP used in the Survey of Health, Ageing and Retirement in Europe (SHARE) differs from the one suggested in Wiggins(2008). A SPAIN paper supports a multidimensional model for the CASP–12 composed by three factors and it concludes has potential to be used as a multidimensional tool to assess QoL in older people. \\
 
 There is  agreement in the literature on positive effects on volunteering -
@@ -284,7 +284,7 @@ We use similar measure of subjective health to the one used in Haski(2009). This
 
 \section{Results}
 
-\subsection{Result 1: volunteering rates for elderly in Europe}
+\subsection*{Volunteering rates for elderly in Europe}
 
 The way how a question on volunteering was formulated in the SHARE had
 significant impact on levels of the rates. Table \ref{OECDSHARE}  compares the rates from Haski (2009) and the rates calculated using the wave 6 with the rates reported in OECD(2016).
@@ -307,16 +307,30 @@ The rates in the wave 6 are much more like the rates published by the OECD than 
 
 
 
-\subsection{Result 2: Kendall-tau and significance test - volunteering vs. subjective health and casp}
+\subsection*{Volunteering v wellbeing - Pearson correlation (Haski) v Kendall-tau correlation}
 
 \footnote{based on PEARSON'S VERSUS SPEARMAN'S AND KENDALL'S CORRELATION COEFFICIENTS FOR CONTINUOUS DATA, Nian Shong Chok, 2008}
 
-We analyse the relationship between popularity of volunteering and its impact on wellbeing using Kendall's correlation coefficients. We decided to use the Kendall's measure since it is usually suggested for non-normally distributed data and that the Pearson correlation coefficient is appropriate only for interval data. On the other hand, the Kendall's correlation coefficients can be used for either ordinal or interval data. According to Khamis  Kendall's tau is more appropriate if at least one variable is ordinal one \footnote{Khamis H. Measures of Association: How to Choose? Journal of Diagnostic Medical Sonography. 2008;24:155-162.}. Kendall's tau is less sensitive to outliers and is often preferred due to its simplicity and ease of interpretation. The Kendall'a tau(b) correlation coefficients for association between volunteering and subjective health or subjective wellbeing  are presented below together with the countries rates of volunteering.
+
+
+Uncondtional means for casp among volunteers and non-volunteers reveal positive associaton between volunteering and wellbeing.  On average volunteers report higher values of casp. Differences between the scores are smaller among  high income coutries. The absolute difference for Denmark  is 0.9, for Switzerland 1.1 and for Greece 2.1, for Portugal 2.4 and for Isreal 2.9. The highest absolute difference of 3.8 is for Poland and the second to the highest is for Estonia (3.6). There are intuitive suggestions that can be postulated from the above graph. The first one is on negative relation between the volunteering rate in a country and its impact on wellbeing. This may be summerized as "more volunteers lower increase in wellbeing". The second postulate is about higher heterogeneity among countries with the low rates. For example the rates in Czech Republic, Portugal and in Estonia are similar but the differences between condtional means are very different. As we see in some countries (Poland, Estonia, Italy, Isreal) the differences in casp are large, while in Czech Republic and Slovenia they are at the same levels as in much richer countries as France, Germany, Luxemburg.     
+
+
+\begin{figure}[H]
+ \includegraphics[height=3in]{abs_casp.pdf}
+ \centering
+% \source{ }
+ \label{fig:oecd_50p}
+\caption{volunteering shares}
+\end{figure}
+
+
+In \citet{haski09} association between volunteering and life satisfaction was analysed using the Pearsons correlation coefficient. It should be remembered that casp was not included in the wave 1 that was in that research. Here we analyse relationship between popularity of volunteering and its impact on wellbeing using casp index and Kendall's tau-b correlation coefficients. We use the Kendall's measure since it is appropriate for non-normally distributed data. The Pearson correlation coefficient may be used only for interval data, while the Kendall's correlation coefficients can be used for either ordinal or interval data. According to Khamis  Kendall's tau is more appropriate if at least one variable is ordinal one \footnote{Khamis H. Measures of Association: How to Choose? Journal of Diagnostic Medical Sonography. 2008;24:155-162.}. Also, Kendall's tau is less sensitive to outliers and is often preferred due to its simplicity and ease of interpretation. The Kendall'a tau-b correlation coefficients for association between volunteering and subjective wellbeing  are presented below together with the countries rates of volunteering. They are compared with the results in \citet{haski09}. 
 
 
 \begin{figure}[H]
 \centering
-\caption{Tau b correlations} 
+\caption{Tau b correlations AOK: from old just keeping for comparisons} 
 \label{fig:taub}
 \begin{minipage}{1\linewidth}
 \subfloat[Subjective health]{\includegraphics[height=2.7in]{Kendall_h.pdf}}\quad
@@ -326,76 +340,122 @@ We analyse the relationship between popularity of volunteering and its impact on
 \end{minipage}
 \end{figure} 
 
-%
-%\begin{figure}[H]
-% \includegraphics[height=3in]{Kendall_h.pdf}
-% \centering
-% \label{fig:tauH}
-%\caption{tau subjective health}
-%\end{figure}
+\begin{figure}[H]
+\centering
+\caption{Volunteering and wellbeing} 
+\label{fig:taub}
+\begin{minipage}{1\linewidth}
+\subfloat[Life satisfaction (\citet{haski09})]{\includegraphics[height=2.7in]{Haski_lifesat.pdf}}\quad
+\subfloat[CASP]{\includegraphics[height=2.7in]{Kendall_casp.pdf}}~\\
+{\footnotesize Notes: (a) wave 1 (2006-2007), (b) wave 6 (2015) }~\\
+{\footnotesize Source: \citet{haski09} [Table 3] and own calculations based on SHARE Wave 6.}
+\end{minipage}
+\end{figure} 
 
-
-In all countries volunteering and subjective health are positively associated. The highest association was observed in Luxemburg (the Kendall's correlation of 18.0\%) and the lowest in Sweden (1.7\%). In Western and Northern Europe the associations are stronger than in Southern and Central Europe but the differences between some countries from both groups are rather small. This suggests that increasing popularity of volunteering in Poland, Czech Republic, Italy or Spain will not necessarily be associated with significant change in subjective health of volunteers. The significance tests for differences between tau(b) are given in the Appendix. According to these tests the difference between Germany and Poland with the corresponding rates of volunteering of 23.8\% and 3.4\% is not statisitically significant. The same we conclude for difference between Germany and Czech Republic where the rate of volunteering is 8.9\%. Other pairs with similar associations between volunteering and health and large differences in popularity of volunteering are: Denmark and Poland, Denmark and Czech Republic, Denmark and Spain, Denmark and Portugal.  \\
-
-
-As it was expected association between volunteering and CASP  is positive. The Kendall's correlation coefficients range from 15.4\% (Isreal) to 3.3\% (Sweden).  The nonlinear, inverted U-shape relation, is easily seen. For example, the coefficients for Germany and Belgium are on a similar level as those in Slovenia, Portugal and Spain despite about 10 pp. difference between the rates of volunteering between for example Germany and Slovenia. Also, the differences between Poland and Czech Republic on an one side and Italy and Estonia on another are highly significant (pvalues about 1\%). These significances come together with small differences in the volunteering rates. Our findings do not allow us to reject the hypothesis about nonlinearity in the relationship between popularity of volunteering and its effect on wellbeing. \\
-
-The puzzeling outcome of \citet{haski09} was unexpected pattern of correlations between  popularity of volunteering and wellbeing.  The more recent data from the SHARE survey with more countries, a different measure of volunteering and a different measure of association confirms that finding - weak volunteering effect is observed among low rate countries (Czech Republic, Greece, Portugal, Slovenia) and among high rate countries (Denmark, Switzeralnd, Belgium, Luxemburg, Germany). Somewhere between the impact is the strongest. \\
-
-Neither the Pearson's correlation nor the Kendall's correlation coefficient  do not control for confounding variables. They just describe unconditional relationship betweem volunteering and well-being. To account for the role of possible confounding variables we run a regression analysis.   
-
-\subsection{casp, health conditional on volunteering }
-
-% Casp v volunteering
-Before that we compare simple uncondtional means for volunteers and non-volunteers what once againg reveals a division into North-West and South-Central Europe. Volunteers report on average higher values of casp. Differences between the conditional scores are smaller among  high income coutries. The absolute difference for Denmark  is 0.9, for Switzerland 1.1 and for Greece 2.1, for Portugal 2.4 and for Isreal 2.9. The highest absolute difference of 3.8 is for Poland and the second to the highest if for Estonia (3.6). The pattern for relative differences is very similar with high heterogenity among countries where the rates are low and much lower heterogenity in countries where the rates are large \footnote{This may be a statistical fact due to larger number of observations that causes variance to be smaller}. 
-Unconditional means do not show previously noticed non-linearity. Here, we rather see negative linear relationship with large heterogenity among countries with low volunteering rates.
-
-Volunteers give on average better answer about subjective health. Comparing conditional mean scores reveals different pattern to the one discussed for casp. There is weaker relationship between popularity of volunteering in a country and its impact on subjective health. 
 
 
 \begin{figure}[H]
+ \includegraphics[height=3in]{Kendall_h.pdf}
+ \centering
+ \label{fig:tauH}
+\caption{tau subjective health; AOK: also uncommented this one for comparison}
+\end{figure}
+
+[AOK: keep for the time being--will see later what todo]
+In all countries volunteering and subjective health are positively associated. The highest association was denoted in Luxemburg (the Kendall's correlation of 18.0\%) and the lowest in Sweden (1.7\%). In Western and Northern Europe the associations are stronger than in Southern and Central Europe but the differences between some countries from both groups are rather small. This suggests that increasing popularity of volunteering in Poland, Czech Republic, Italy or Spain will not necessarily be associated with significant change in subjective health of volunteers. The significance tests for differences between tau(b) are given in the Appendix. According to these tests the difference between Germany and Poland with the corresponding rates of volunteering of 23.8\% and 3.4\% is not statisitically significant. The same we conclude for difference between Germany and Czech Republic where the rate of volunteering is 8.9\%. Other pairs with similar associations between volunteering and health and large differences in popularity of volunteering are: Denmark and Poland, Denmark and Czech Republic, Denmark and Spain, Denmark and Portugal.  \\
+
+As it was expected association between volunteering and CASP  is positive. The Kendall's correlation coefficients range from 15.4\% (Isreal) to 3.3\% (Sweden).  It is intresting that the nonlinear, inverted U-shape relation, is so easily seen. The coefficients for Germany and Belgium are on a similar level as those in Slovenia, Portugal and Spain despite 10 pp. difference in the rates of volunteering. On the other hand the differences in association in Czech Republic on an one side and in Italy and Estonia on another are highly significant (pvalues about 1\%) despite not large differences in the rates. Those results confirm the puzzeling outcome of \citet{haski09} on unexpected pattern of correlations between  popularity of volunteering and wellbeing.  The more recent data from the SHARE survey with more countries, a different measure of volunteering and a different measure of association also show that similar volunteering effect may be observed at the same time in low rate countries (Czech Republic, Greece, Portugal, Slovenia) and in high rate countries (Denmark, Switzeralnd, Belgium, Luxemburg, Germany). From the Fig.2 one should expect the strongest impact in countries with mid-range rates. However, neither the Pearson's correlation  nor the Kendall's correlation coefficients  do not control for confounding variables that may condaminate the realtion between volulnteering and wellbeing. To account for the possible confounding variables we run a regression analysis.   
+
+
+[AOK: keeping for teh time being may drop]
+The puzzeling outcome of \citet{haski09} was unexpected pattern of correlations between  popularity of volunteering and wellbeing.  The more recent data from the SHARE survey with more countries, a different measure of volunteering and a different measure of association confirms that finding - weak volunteering effect is observed among low rate countries (Czech Republic, Greece, Portugal, Slovenia) and among high rate countries (Denmark, Switzeralnd, Belgium, Luxemburg, Germany). Somewhere between the impact is the strongest. \\
+
+Neither the Pearson's correlation nor the Kendall's correlation coefficient  do not control for confounding variables. They just describe unconditional relation betweem volunteering and well-being. To account for the role of possible confounding variables we run a regression analysis.   
+
+%\begin{figure}[H]
+%\centering
+%\caption{Unconditional means} 
+%\label{fig:vol_casp}
+%\begin{minipage}{1\linewidth}
+%\subfloat[CASP]{\includegraphics[height=2.7in]{rel_casp.pdf}}\quad
+%\subfloat[CASP]{\includegraphics[height=2.7in]{abs_casp.pdf}} \quad
+%\subfloat[Health]{\includegraphics[height=2.7in]{rel_health.pdf}}\quad
+%\subfloat[Health]{\includegraphics[height=2.7in]{abs_health.pdf}} ~\\
+%{\footnotesize Notes: }~\\
+%{\footnotesize Source: Own calculations based on SHARE Wave 6.}
+%\end{minipage}
+%\end{figure} 
+
+\subsection*{Volunteering and casp (regression analysis)}
+
+There are different methods how the relation between the rate of volunteering and its impact on wellbeing may be investigated. One aproach is to assume the universal relation between volunteering and wellbeing conditional on the rate of volunteering. In this approach the country effect depends on observed variables and any deviation from conditional expected value is treated as a random event drawn from the same distribution. So, the deviations from the grand average are assumed to be not related to country level variables incuded into the model. \\
+
+Another approach is based on an assumption of the uniqness of each country. The country effect as being seen as the result of different history, cultural factors and institutions is considered to be the unique characteristic of a given country. Here, the estimate of the country effect for one country does not give us any extra information on another one. It means that we may not predict how relation between volunteering and wellbeing will change  after an increase in the country's volunteering rate using the prediction for a different country. This approach is equivalent to fitting a separate model to each country’s dataset:  
+
+ \begin{eqnarray}
+	casp_{i,c}= \beta_{0c}+ \beta_{1c}*v_{i,c} + \gamma_{c}*Z_{i,c} + \epsilon_{i,c}
+ \end{eqnarray}
+
+where $v_{i,c}$ is a binary variable equal to 1 if a person i from a country c is engaged in  volunteering  and a matrix $Z_{i,c}$ includes controls : age,gender, education measured in years and a country average gdp per capita expressed in purchasing power parity in years X-Y. 
+
+
+In this model $\beta_{1c}$ measures country-specific impact of volunteering on wellbeing. For each country we get the separate coefficient and any country specific factors are absorbed into the intercept term. No restrictions are assumed on the variance of the error terms for each country. It may be also noticed that any country difference in mean values of wellbeing conditional on volunteering may be presented as \footnote{It is possible since $\bar{casp_{c}} = \bar{\hat{casp_c}}$} 
+
+ \begin{eqnarray}
+	\bar{\hat{casp_{c}}}(1)-\bar{\hat{casp_{c}}}(0)= \hat{\beta_{0c}}+\hat{\gamma_{c}}*(\bar{Z}_{c}(1)-\bar{Z}_{c}(0))
+ \end{eqnarray}
+
+with $\bar{\hat{casp_{c}}}(1)$ being a predicted average wellbeing for a volunteer and $\bar{\hat{casp_{c}}}(0)$ is a predicted average wellbeing for a non-volunteer.  The first term gives an impact of volunteering in country c. The second term is an endowment effect due to  differences in covariates between volunteers and non volunteers with $\bar{Z}_{c}(1)$ being average endowment among volunteers and $\bar{Z}_{c}(0)$ among non-volunteers. Thought characteristcs allocated to both sectors may be different they are valued exactly in the same way $\gamma$. The results of estimation are given in the Appendix. Below we present a graph showing the estimated volunteering effects ($ hat{\beta_{0c}} $) and the endowmemt effects $(\hat{\gamma_{c}}*(\bar{Z}_{c}(1)-\bar{Z}_{c}(0)))$
+
+\begin{figure}[H]
 \centering
-\caption{Unconditional means} 
-\label{fig:vol_casp}
+\caption{Volunteering and wellbeing (OLS)} 
+\label{fig:casp_ols}
 \begin{minipage}{1\linewidth}
-\subfloat[CASP]{\includegraphics[height=2.7in]{rel_casp.pdf}}\quad
-\subfloat[CASP]{\includegraphics[height=2.7in]{abs_casp.pdf}} \quad
-\subfloat[Health]{\includegraphics[height=2.7in]{rel_health.pdf}}\quad
-\subfloat[Health]{\includegraphics[height=2.7in]{abs_health.pdf}} ~\\
+\subfloat[Observed differences in means]{\includegraphics[height=2.7in]{abs_dcasp.pdf}} \quad
+\subfloat[Decomposition (Separate models)]{\includegraphics[height=2.7in]{ols_fitcry.pdf}}~\\
+{\footnotesize Notes: }~\\
+{\footnotesize Source: Own calculations based on SHARE Wave 6.}
+\end{minipage}
+\end{figure} 
+ 
+In all countries the volunteering effect is positive except Denamark where it is not statistically signifcant from 0. The highest estmiated values are for Italy, Greece, Isreal and Poland. The smallest for rich countries - Denmark, Switzerland, Luxemburg, Sweden but also for Czech Rep. Controlling for covariates such as age, gender, education and economic development lowers realtive importance of volunteering in Poland and Estonia and increasing it in Italy, Greece, Spain, Isreal. It is intresting that in two formerly communistic countries selection into volunteering is more important than in Southern European countries. \textit{(Interpretation): It means that engaging in volunteering adds reltively less to wellbeing in CEE coutries than in Southern ones. Volunteers in CEEs are more selected from those who were high level of wellbeing even without engaging in volunteering. So, even though the fixed effect approach generally does not allow for inter-country comparisons we may suggest that some consistent regional differences exist in Europe with Poland and Estonia being separate group than Southern European countries.} \\
+
+As it was explained above, an alternative approach is to assume comparability among countries. It means that we belive in common trends among countries and treat deviations from them as being randomly. One possible formulation of a model is a multilevel linear regression with varying intercept and coefficient. By allowing for a random intercept for each country we allow for different values for wellbeing within a country by gender, age and other control variables. At the same time we allow for a variation in averages between countries:
+
+
+ \begin{eqnarray}
+	casp_{i,c}\sim N(\beta_{0}+ u_{c} +  \beta_{1,c} * vol_{i,c}+\gamma*Z_{i,c},\sigma^{2}_{y}) \\	
+	u_{c} \sim N(\gamma_{c},\sigma^{2}_{c}) \\
+	\beta_{1,c} \sim N(\gamma_{r}*r_{c},\sigma^{2}_{r})
+ \end{eqnarray}
+       
+with $\hat{casp_{i,c}(1)}$ being average casp of volunteers and $  \hat{casp_{i,c}(0)}$ of those not engaged in it. The first term - volunteering effect - measures an impact of volunteering as function of country popularity of it assuming the same average values for controls. The second term - endowment effect - describes imapct of differences in controls between volunteers and non volunteers. One can also calculate a partiall effect of volunteering country rate on casp.  \\   
+ 
+where $r_{c}$ is a country volunteering rate calculted from the wave 6 of the SHARE survey. In this model we treat country effect as being random effect and we allow for impact of volunteering to depend on the rate of volunteering. Since we estimate one model for all countries we cannot decompose the mean difference in well being withour error. The full estimation results are given in the Appendix. 
+
+
+  \begin{figure}[H]
+\centering
+\caption{Volunteering and wellbeing (Fied effect model v MLM model))} 
+\label{fig:casp_ols}
+\begin{minipage}{1\linewidth}
+\subfloat[Varying intercept model]{\includegraphics[height=2.7in]{mlmQ_fit0.pdf}}\quad
+\subfloat[Fixed effect model]{\includegraphics[height=2.7in]{ols_fitcry.pdf}} ~\\
 {\footnotesize Notes: }~\\
 {\footnotesize Source: Own calculations based on SHARE Wave 6.}
 \end{minipage}
 \end{figure} 
 
-The estmiated model for $casp_{i,c}$ with i standing for a person and c for a country was:
- \begin{eqnarray}
-	casp_{i,c}= \beta_{0}+ \beta_{1}*v_{i,c} + \beta_{2}*r_{c}*v_{i,c}+\beta_{3}*r^{2}_{c}*v_{i,c}+\gamma*Z_{i,c} + \epsilon{i,c}
- \end{eqnarray}
-with $v_{i,c}$ being a binary variable equal to 1 if a person i from a country c reported to be engagaed in a volunteering, $r_{c}$ is a country vounteering rate calculted using the wave 6 of the SHARE survey and $Z_{i,c}$ is a matrix of controls that includes age,gender, education measured in years and an average of country gdp per capita in purchasing power parity in years X-Y. The random term is assumed to be correlated within clusters of countries.  \\
-  
-The full estimation results are given in the Appendix. We notice that they show a concave relationship between the rate of volunteering and wellbeing with a decreasing marginal impact of volunteering on wellbeing. The following decomposition can be written:
-
- \begin{eqnarray}
-	\hat{casp_{i,c}(1)}-\hat{casp_{i,c}(0)}= (\hat{\beta_{1}}+\hat{\beta_{2}}*r_{c}+\hat{\beta_{3}}*r^{2}_{c})+\hat{\gamma}*(Z_{i,c}(1)-Z_{i,c}(0))
- \end{eqnarray}
-       
-with $\hat{casp_{i,c}(1)}$ being average casp of volunteers and $  \hat{casp_{i,c}(0)}$ of those not engaged in it. The first term - volunteering effect - measures an impact of volunteering as function of country popularity of it assuming the same average values for controls. The second term - endowment effect - describes imapct of differences in controls between volunteers and non volunteers. One can also calculate a partiall effect of volunteering country rate on casp.  \\   
- 
-Another way how the relationship between volunteering and wellbeing can be discussed is by using the multilevel liner regression modelling.\textit{ We may notice two levels of data in the previous model - the individuals and the countries. Allowing for a random intercept for each country in the model we allow for different values for individial casp within a country after controlling for gender, age and other control variables. At the same time we allow for a variation in averages between countries.  Varying slope allows for an interaction between a country level and impact of volunteering on well-being. - ZREZYGNOWALEM Z TEGO MODELU } \\
+Interpretion ? (What can we say ? Results are very different. Pooling suggests that volunteers are better off becouse they have better characteristics. It is not voluteering make them more satisfied but rather they are volunteers becouse they are more satified. Volunteering is more important when it is not very popular. When the volunteering is very popular it is possible for volunteering to lower wellbeing. Why ? It may be that you are socially forced to do that and you do not enjoy it. Separate models give different impression. Country differences are much more evident. VOlunteering is more important than it was suggested by the previous model. Better people select into volunteering but also, despite their previleged characteristics, they get extra wellbeing from volunteering. )//
 
 
-% \begin{eqnarray}
-%	casp_{i,j}\sim N(\beta_{0}+ c_{j} +  \beta_{1,j} * vol_{i,j}+\gamma*Z_{i,j},\sigma^{2}_{y}) \\	
-%	c_{j} \sim N(\gamma_{c},\sigma^{2}_{c}) \\
-%	\beta_{1,j} \sim N(\gamma_{r}*volrate^{2}_{j},\sigma^{2}_{r})
-% \end{eqnarray}
-%
-%Multilevel approach allows to estimate $E(\beta_{1,j})$ and $E(c_{j})$ and variances $\epsilon_{c}$  and $\epsilon_{r}$. This allows us to write: 
-%
-% \begin{eqnarray}
-%	\hat{casp}_{i,j}= \hat{E}(c_{j})+  \hat{E}(\beta_{1,j})* vol_{i}+\hat{\gamma}*Z_{i,j} \\	
-% \end{eqnarray}
-%
+
+ The first model is: \\
+
+
+
+
 %Full regression results are given in the Appendix. Using the same decomposition we may compare results from OLS estimation of linear regression model with the MLM estimation: 
 %
 %
@@ -413,43 +473,8 @@ Another way how the relationship between volunteering and wellbeing can be discu
 %
 %Results are much different ... 
 
-Another model that may be used is a quadratic growth model with a random effect for countries:
- 
-\begin{eqnarray}
-	casp_{i,j}\sim N(\beta_{0}+ c_{j} +  \beta_{1}*v_{i,c} + \beta_{2}*r_{c}*v_{i,c}+\beta_{3}*r^{2}_{c}*v_{i,c}+\gamma*Z_{i,c} + \epsilon{i,c}
- \end{eqnarray}
- 
-  
-%\\begin{figure}[H]
-%\centering
-%\caption{Volunteering and wellbeing (MLM quadratic growth curve)} 
-%\label{fig:casp_mlmQ}
-%\begin{minipage}{1\linewidth}
-%\subfloat[Absolute effect]{\includegraphics[height=2.7in]{mlmQ_abseffect.pdf}}\quad
-%\subfloat[Decomposition]{\includegraphics[height=2.7in]{mlmQ_fit.pdf}}\quad
-%\subfloat[Margins]{\includegraphics[height=2.7in]{mlmQ_margins.pdf}} ~\\
-%{\footnotesize Notes: }~\\
-%{\footnotesize Source: Own calculations based on SHARE Wave 6.}
-%\end{minipage}
-%\end{figure}  
 
-\begin{figure}[H]
-\centering
-\caption{Volunteering and wellbeing (OLS v MLM Quadratic growth model)} 
-\label{fig:casp_ols}
-\begin{minipage}{1\linewidth}
-\subfloat[Absolute effect]{\includegraphics[height=2.7in]{ols_abseffect.pdf}}\quad
-\subfloat[Absolute effect]{\includegraphics[height=2.7in]{mlmQ_abseffect.pdf}}\quad
-\subfloat[Decomposition]{\includegraphics[height=2.7in]{ols_fit.pdf}}\quad
-\subfloat[Decomposition]{\includegraphics[height=2.7in]{mlmQ_fit.pdf}}\quad
-\subfloat[Margins]{\includegraphics[height=2.7in]{ols_margins.pdf}}\quad
-\subfloat[Margins]{\includegraphics[height=2.7in]{mlmQ_margins.pdf}} ~\\
-{\footnotesize Notes: }~\\
-{\footnotesize Source: Own calculations based on SHARE Wave 6.}
-\end{minipage}
-\end{figure}  
- 
-The left panel shows OLS results while the right one MLM. As wee see much gain in casp comes from differences in endowments. However, in MLM has noticable bigger effect at least for the low rates countries. MORE ... 
+Interpretation ...  
  
 \section{Discussion}
 
