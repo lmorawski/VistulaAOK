@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.1)  15 FEB 2018 22:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.1)  5 MAR 2018 16:54
 entering extended mode
 **./HaskiPaper.tex
 (HaskiPaper.tex
@@ -418,51 +418,6 @@ LaTeX Info: Redefining \today on input line 736.
 \dt@a=\toks29
 \dt@b=\toks30
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\polski\polski.sty"
-Package: polski 2017/05/04 v1.3.4 Polish language package
-
-   Switching to Polish text encoding and Polish maths fonts.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot4enc.def"
-File: ot4enc.def 2017/04/05 v2.0i Standard LaTeX file
-)
-LaTeX Font Info:    Try loading font information for OT4+cmr on input line 360.
-
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\polski\ot4cmr.fd"
-File: ot4cmr.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-)
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT4/cmr/bx/n on input line 360.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT4/cmss/m/n on input line 360.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT4/cmr/m/it on input line 360.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT4/cmtt/m/n on input line 360.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT4/cmss/bx/n on input line 360.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT4/cmr/bx/it on input line 360.
-LaTeX Font Info:    Encoding `OT1' has changed to `OT4' for symbol font
-(Font)              `operators' in the math version `normal' on input line 360.
-
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT4/cmr/m/n on input line 360.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/plm/m/it on input line 360.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/plsy/m/n on input line 360.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/plex/m/n on input line 360.
-LaTeX Font Info:    Encoding `OT1' has changed to `OT4' for symbol font
-(Font)              `operators' in the math version `bold' on input line 360.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT4/cmr/bx/n on input line 360.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/plm/b/it on input line 360.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/plsy/b/n on input line 360.
-)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks31
@@ -772,8 +727,6 @@ Now handling font encoding U ...
 ... no UTF-8 mapping file for font encoding U
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-Now handling font encoding OT4 ...
-... no UTF-8 mapping file for font encoding OT4
    defining Unicode char U+00A9 (decimal 169)
    defining Unicode char U+00AA (decimal 170)
    defining Unicode char U+00AE (decimal 174)
@@ -1180,48 +1133,37 @@ Package: abstract 2009/06/08 v1.2a configurable abstracts
 \absparsep=\skip70
 ) (HaskiPaper.aux
 
-LaTeX Warning: Label `tab:addlabel' multiply defined.
+LaTeX Warning: Label `clabel' multiply defined.
 
 
-LaTeX Warning: Label `tab:addlabel' multiply defined.
+LaTeX Warning: Label `clabel' multiply defined.
 
 
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
+LaTeX Warning: Label `fig:casp_ols' multiply defined.
 
 )
 \openout1 = `HaskiPaper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Try loading font information for OT4+cmss on input line 143
-.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\ot4cmss.fd"
-File: ot4cmss.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
@@ -1254,7 +1196,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box71
-Package hyperref Info: Link coloring OFF on input line 143.
+Package hyperref Info: Link coloring OFF on input line 146.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1264,9 +1206,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count184
 )
-LaTeX Info: Redefining \ref on input line 143.
-LaTeX Info: Redefining \pageref on input line 143.
-LaTeX Info: Redefining \nameref on input line 143.
+LaTeX Info: Redefining \ref on input line 146.
+LaTeX Info: Redefining \pageref on input line 146.
+LaTeX Info: Redefining \nameref on input line 146.
 
 (HaskiPaper.out) (HaskiPaper.out)
 \@outlinefile=\write4
@@ -1282,71 +1224,23 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for OML+plm on input line 151.
-
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omlplm.fd"
-File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-)
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 151
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 154
 .
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omsplsy.fd"
-File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-)
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 151
-.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omxplex.fd"
-File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-)
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <17.28> on input line 151.
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 151.
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 151.
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 151
-.
-LaTeX Font Info:    No file OMScmss.fd. on input line 151.
+LaTeX Font Info:    No file OMScmss.fd. on input line 154.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textasteriskcentered' on input line 151.
-
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 151.
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 151.
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <5> on input line 151.
-
-LaTeX Font Warning: Font shape `OT4/cmss/m/sc' in size <10> not available
-(Font)              Font shape `OT4/cmr/m/sc' tried instead on input line 161.
-
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 179.
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
-
- []
+(Font)              for symbol `textasteriskcentered' on input line 154.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
-
- []
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 164.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
-
-[1
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Font shape `OT4/cmss/m/it' in size <10> not available
-(Font)              Font shape `OT4/cmss/m/sl' tried instead on input line 185.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 185--186
@@ -1358,226 +1252,277 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
+[1
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--197
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 189--192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 197.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 211--213
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+
+ []
+
+
+Package natbib Warning: Citation `oecd2015' on page 3 undefined on input line 2
+15.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+
+Package natbib Warning: Citation `oecd2015' on page 4 undefined on input line 2
+17.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
 
-(OECDSHARE.tex)
-LaTeX Font Info:    Font shape `OT4/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT4/cmss/m/sl' tried instead on input line 246.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+(OECD2016_SHARE.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
 
  []
 
-[4]
 
-pdfTeX warning: pdflatex (file ./Kendall_h.pdf): PDF inclusion: found PDF versi
-on <1.6>, but at most version <1.5> allowed
-<Kendall_h.pdf, id=142, 258.36525pt x 187.902pt>
-File: Kendall_h.pdf Graphic file (type pdf)
- <use Kendall_h.pdf>
-Package pdftex.def Info: Kendall_h.pdf used on input line 262.
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--240
+
+ []
+
+[4] (caspTtest.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./abs_casp.pdf): PDF inclusion: found PDF versio
+n <1.6>, but at most version <1.5> allowed
+<abs_casp.pdf, id=146, 258.36525pt x 187.902pt>
+File: abs_casp.pdf Graphic file (type pdf)
+ <use abs_casp.pdf>
+Package pdftex.def Info: abs_casp.pdf used on input line 259.
+(pdftex.def)             Requested size: 298.13089pt x 216.81pt.
+ [5]
+
+pdfTeX warning: pdflatex (file ./Haski_lifesat.pdf): PDF inclusion: found PDF v
+ersion <1.6>, but at most version <1.5> allowed
+<Haski_lifesat.pdf, id=161, 258.36525pt x 187.902pt>
+File: Haski_lifesat.pdf Graphic file (type pdf)
+ <use Haski_lifesat.pdf>
+Package pdftex.def Info: Haski_lifesat.pdf used on input line 283.
 (pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
 
 
 pdfTeX warning: pdflatex (file ./Kendall_casp.pdf): PDF inclusion: found PDF ve
 rsion <1.6>, but at most version <1.5> allowed
-<Kendall_casp.pdf, id=143, 258.36525pt x 187.902pt>
+<Kendall_casp.pdf, id=166, 258.36525pt x 187.902pt>
 File: Kendall_casp.pdf Graphic file (type pdf)
  <use Kendall_casp.pdf>
-Package pdftex.def Info: Kendall_casp.pdf used on input line 263.
+Package pdftex.def Info: Kendall_casp.pdf used on input line 284.
 (pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
+[6 <./abs_casp.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
 
-[6 <./Kendall_h.pdf> <./Kendall_casp.pdf>]
+[7 <./Haski_lifesat.pdf> <./Kendall_casp.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 
-pdfTeX warning: pdflatex (file ./rel_casp.pdf): PDF inclusion: found PDF versio
-n <1.6>, but at most version <1.5> allowed
-<rel_casp.pdf, id=183, 258.36525pt x 187.902pt>
-File: rel_casp.pdf Graphic file (type pdf)
- <use rel_casp.pdf>
-Package pdftex.def Info: rel_casp.pdf used on input line 301.
-(pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
+ []
 
 
-pdfTeX warning: pdflatex (file ./abs_casp.pdf): PDF inclusion: found PDF versio
-n <1.6>, but at most version <1.5> allowed
-<abs_casp.pdf, id=184, 258.36525pt x 187.902pt>
-File: abs_casp.pdf Graphic file (type pdf)
- <use abs_casp.pdf>
-Package pdftex.def Info: abs_casp.pdf used on input line 302.
-(pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
+
+ []
 
 
-pdfTeX warning: pdflatex (file ./rel_health.pdf): PDF inclusion: found PDF vers
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+
+ []
+
+[8]
+
+pdfTeX warning: pdflatex (file ./ols_fitcry.pdf): PDF inclusion: found PDF vers
 ion <1.6>, but at most version <1.5> allowed
-<rel_health.pdf, id=185, 258.36525pt x 187.902pt>
-File: rel_health.pdf Graphic file (type pdf)
- <use rel_health.pdf>
-Package pdftex.def Info: rel_health.pdf used on input line 303.
+<ols_fitcry.pdf, id=233, 258.36525pt x 187.902pt>
+File: ols_fitcry.pdf Graphic file (type pdf)
+ <use ols_fitcry.pdf>
+Package pdftex.def Info: ols_fitcry.pdf used on input line 392.
 (pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
 
 
-pdfTeX warning: pdflatex (file ./abs_health.pdf): PDF inclusion: found PDF vers
-ion <1.6>, but at most version <1.5> allowed
-<abs_health.pdf, id=186, 258.36525pt x 187.902pt>
-File: abs_health.pdf Graphic file (type pdf)
- <use abs_health.pdf>
-Package pdftex.def Info: abs_health.pdf used on input line 304.
+pdfTeX warning: pdflatex (file ./mlmQ_fit0.pdf): PDF inclusion: found PDF versi
+on <1.6>, but at most version <1.5> allowed
+<mlmQ_fit0.pdf, id=234, 258.36525pt x 187.902pt>
+File: mlmQ_fit0.pdf Graphic file (type pdf)
+ <use mlmQ_fit0.pdf>
+Package pdftex.def Info: mlmQ_fit0.pdf used on input line 393.
 (pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--307
-[][] [][]
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 313--315
-
- []
-
-[8 <./rel_casp.pdf> <./abs_casp.pdf> <./rel_health.pdf> <./abs_health.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
+ [9]
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
 
-pdfTeX warning: pdflatex (file ./ols_abseffect.pdf): PDF inclusion: found PDF v
-ersion <1.6>, but at most version <1.5> allowed
-<ols_abseffect.pdf, id=248, 258.36525pt x 187.902pt>
-File: ols_abseffect.pdf Graphic file (type pdf)
- <use ols_abseffect.pdf>
-Package pdftex.def Info: ols_abseffect.pdf used on input line 381.
-(pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
-
-
-pdfTeX warning: pdflatex (file ./mlmQ_abseffect.pdf): PDF inclusion: found PDF 
-version <1.6>, but at most version <1.5> allowed
-<mlmQ_abseffect.pdf, id=249, 258.36525pt x 187.902pt>
-File: mlmQ_abseffect.pdf Graphic file (type pdf)
- <use mlmQ_abseffect.pdf>
-Package pdftex.def Info: mlmQ_abseffect.pdf used on input line 382.
-(pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
-
-
-pdfTeX warning: pdflatex (file ./ols_fit.pdf): PDF inclusion: found PDF version
- <1.6>, but at most version <1.5> allowed
-<ols_fit.pdf, id=250, 258.36525pt x 187.902pt>
-File: ols_fit.pdf Graphic file (type pdf)
- <use ols_fit.pdf>
-Package pdftex.def Info: ols_fit.pdf used on input line 383.
-(pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
-
-
-pdfTeX warning: pdflatex (file ./mlmQ_fit.pdf): PDF inclusion: found PDF versio
-n <1.6>, but at most version <1.5> allowed
-<mlmQ_fit.pdf, id=251, 258.36525pt x 187.902pt>
-File: mlmQ_fit.pdf Graphic file (type pdf)
- <use mlmQ_fit.pdf>
-Package pdftex.def Info: mlmQ_fit.pdf used on input line 384.
-(pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
-
-
-pdfTeX warning: pdflatex (file ./ols_margins.pdf): PDF inclusion: found PDF ver
-sion <1.6>, but at most version <1.5> allowed
-<ols_margins.pdf, id=252, 258.36525pt x 187.902pt>
-File: ols_margins.pdf Graphic file (type pdf)
- <use ols_margins.pdf>
-Package pdftex.def Info: ols_margins.pdf used on input line 385.
-(pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
-
-
-pdfTeX warning: pdflatex (file ./mlmQ_margins.pdf): PDF inclusion: found PDF ve
-rsion <1.6>, but at most version <1.5> allowed
-<mlmQ_margins.pdf, id=253, 258.36525pt x 187.902pt>
-File: mlmQ_margins.pdf Graphic file (type pdf)
- <use mlmQ_margins.pdf>
-Package pdftex.def Info: mlmQ_margins.pdf used on input line 386.
-(pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 381--389
-[][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--389
-[][] [][]
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
+
  []
 
-[9]
-Overfull \vbox (15.12431pt too high) has occurred while \output is active []
 
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
-[10 <./ols_abseffect.pdf> <./mlmQ_abseffect.pdf> <./ols_fit.pdf> <./mlmQ_fit.pd
-f> <./ols_margins.pdf> <./mlmQ_margins.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
+ []
+
+[10 <./ols_fitcry.pdf> <./mlmQ_fit0.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
 
  []
 
 [11]
 
-pdfTeX warning: pdflatex (file ./oecd_age50p.pdf): PDF inclusion: found PDF ver
-sion <1.6>, but at most version <1.5> allowed
-<oecd_age50p.pdf, id=336, 258.36525pt x 187.902pt>
-File: oecd_age50p.pdf Graphic file (type pdf)
- <use oecd_age50p.pdf>
-Package pdftex.def Info: oecd_age50p.pdf used on input line 503.
-(pdftex.def)             Requested size: 298.13089pt x 216.81pt.
-
-
 pdfTeX warning: pdflatex (file ./hist_casp.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<hist_casp.pdf, id=337, 258.36525pt x 187.902pt>
+<hist_casp.pdf, id=285, 258.36525pt x 187.902pt>
 File: hist_casp.pdf Graphic file (type pdf)
  <use hist_casp.pdf>
-Package pdftex.def Info: hist_casp.pdf used on input line 512.
+Package pdftex.def Info: hist_casp.pdf used on input line 535.
 (pdftex.def)             Requested size: 298.13089pt x 216.81pt.
- [12 <./oecd_age50p.pdf>] (casp.tex
-Overfull \hbox (52.961pt too wide) in paragraph at lines 5--29
- [][][] 
+ [12]
+(descTtest0.tex) (descTtest1.tex)
+
+pdfTeX warning: pdflatex (file ./hist_age.pdf): PDF inclusion: found PDF versio
+n <1.6>, but at most version <1.5> allowed
+<hist_age.pdf, id=290, 258.36525pt x 187.902pt>
+File: hist_age.pdf Graphic file (type pdf)
+ <use hist_age.pdf>
+Package pdftex.def Info: hist_age.pdf used on input line 582.
+(pdftex.def)             Requested size: 298.13089pt x 216.81pt.
+ [13 <./hist_casp.pdf>]
+
+pdfTeX warning: pdflatex (file ./hist_incCEE.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<hist_incCEE.pdf, id=308, 258.36525pt x 187.902pt>
+File: hist_incCEE.pdf Graphic file (type pdf)
+ <use hist_incCEE.pdf>
+Package pdftex.def Info: hist_incCEE.pdf used on input line 594.
+(pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
+
+
+pdfTeX warning: pdflatex (file ./hist_incWE.pdf): PDF inclusion: found PDF vers
+ion <1.6>, but at most version <1.5> allowed
+<hist_incWE.pdf, id=309, 258.36525pt x 187.902pt>
+File: hist_incWE.pdf Graphic file (type pdf)
+ <use hist_incWE.pdf>
+Package pdftex.def Info: hist_incWE.pdf used on input line 595.
+(pdftex.def)             Requested size: 268.31505pt x 195.12877pt.
+ [14 <./hist_age.pdf>] (tau_lifesat.tex) (SepMod.tex) (SepMod1.tex) [15 <./hist
+_incCEE.pdf> <./hist_incWE.pdf>] (regHm3.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 668--669
+
  []
 
-) (sphus.tex) [13 <./hist_casp.pdf>] (tau_health.tex) (tau_lifesat.tex)
-(regHm3.tex) [14] [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 590.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 590.
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--674
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 675--676
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 678--679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 680--681
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 691--695
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 691--695
+
+ []
+
+
+Package natbib Warning: There were undefined citations.
+
+[17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 702.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 702.
  (HaskiPaper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 590.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 590.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 702.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 702.
 Package rerunfilecheck Info: File `HaskiPaper.out' has not changed.
-(rerunfilecheck)             Checksum: 0C552EEC9C3FA6A843FBCE9BB984A1CF;594.
+(rerunfilecheck)             Checksum: F2CCBDCA4E93A3C9CD87F9B2A271CC30;264.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1585,36 +1530,36 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 590.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 702.
  ) 
 Here is how much of TeX's memory you used:
- 22728 strings out of 493323
- 434016 string characters out of 3139034
- 596458 words of memory out of 3000000
- 25697 multiletter control sequences out of 15000+200000
- 20567 words of font info for 55 fonts, out of 3000000 for 9000
+ 22489 strings out of 493323
+ 430443 string characters out of 3139034
+ 579123 words of memory out of 3000000
+ 25480 multiletter control sequences out of 15000+200000
+ 13200 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,87p,2053b,671s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/plrm.enc}{C:/Program Files/Mi
-KTeX 2.9/fonts/enc/dvips/pl/plmi.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvi
-ps/pl/plms.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/plsc.enc}<C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/pl/plcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/p
-l/plmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plmi7.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/pl/plr10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/pl/plr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/pl/plss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plss12.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plss17.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/pl/plss8.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/pl/plss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl
-/plssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plssi10.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plssi8.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/pl/plsy10.pfb>
-Output written on HaskiPaper.pdf (15 pages, 1033027 bytes).
+ 55i,13n,87p,2192b,731s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb>
+Output written on HaskiPaper.pdf (17 pages, 855656 bytes).
 PDF statistics:
- 458 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
- 147 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 445 PDF objects out of 1000 (max. 8388607)
+ 86 named destinations out of 1000 (max. 500000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
 
