@@ -315,17 +315,21 @@ In many countries the shares of women and men among volunteers and non-volunteer
 
 Volunteers and volunteers differ according to socio-economic characteristics. Simple logit models confirm this. For each country education is significant variable explaining selection into volunteering. In majority of countries there is a selection according to age and subjective health, also. 
 
+\subsubsection{Determinants of volunteering}
+
+
+
 %%%%%%%%%%%%%%%%%%  LOGIT %%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%% TABLE
 \begin{spacing}{.9}
 \begin{table}[H]
 \centering 
-\caption{Logit: volunteering }  
-\begin{scriptsize} 
+\caption{Logit: volunteering [CEE and SE countries]}  
+\begin{small} 
 	 \input{logitCEE.tex}
       \label{logitCEE} 
-\end{scriptsize}
+\end{small}
 \end{table}
 \end{spacing}
 %%%% END: TABLE
@@ -334,11 +338,11 @@ Volunteers and volunteers differ according to socio-economic characteristics. Si
 \begin{spacing}{.9}
 \begin{table}[H]
 \centering 
-\caption{Logit: volunteering}  
-\begin{scriptsize} 
+\caption{Logit: volunteering [WE countries]}  
+\begin{small} 
 	 \input{logitWE.tex}
       \label{logitWE} 
-\end{scriptsize}
+\end{small}
 \end{table}
 \end{spacing}
 %%%% END: TABLE
@@ -350,141 +354,81 @@ The Pearson's as well as the Kendall's correlation coefficients do not control f
  
 \subsection*{Volunteering and casp (regression analysis)}
 
-We have shown that volunteers and non-volunteers differ in their  socio-economic characteristics in ways specific for each conutry.  Now, we ask whether those differences in the characteristics influence the the impact of volunteering on QoL. We analyze that issue making two different asumptions. Firstly, we assume that the it is possible to identify the common relation for all countries between volunteering and QoL.
+We have shown that volunteers and non-volunteers differ in their  socio-economic characteristics in ways specific for each conutry.  Below we analyze how those differences influence the the impact of volunteering on QoL. We use two specification. First we pool all data into the one model. Then we estimates separate models for each country. The second approach assumes lack of the universal relation for all countries due to the strong country effects that  encompasses the differences in history, cultural factors and institutions that are seen as the unique characteristic of a country. Here, for each country we need to estimate the separate model. This is consistent with findings that "contextual factors, such as a country’s historical background or institutions, determine levels of volunteering to a large extent" (\citet{plagnol10}).
+
+  \begin{eqnarray}
+	casp_{i,c}= \alpha_{c}+ \beta_{0c}*v_{i,c} + \beta_{1c}*(v_{i,c}*gdp_{i,c})+ \beta_{2c}*(v_{i,c}*gdp_{i,c}^{2}) + \gamma_{c}*Z_{i,c} + \epsilon_{i,c}
+ \end{eqnarray}
+
+where $v_{i,c}$ is a binary variable equal to 1 if a person i from a country c is involved in  volunteering  and gdp is a country average gdp per capita expressed in purchasing power parity in years X-Y. Matrix $Z_{i,c}$ includes controls - age, gender, education, an equivalized houseshold level income in purchasing parity units, subjective health, household size, number of grandchildren.
+Separate models for each country are:
+
+  \begin{eqnarray}
+	casp_{i,c}= \alpha_{c}+ \beta_{0c}*v_{i,c} + \gamma_{c}*Z_{i,c} + \epsilon_{i,c}
+ \end{eqnarray}
+
 
 \begin{spacing}{.9}
 \begin{table}[H]
 \centering 
-\caption{CASP vs. volunteering (OLS)- pooling - dodac oszacowania dla krajow}  
+\caption{CASP vs. volunteering (OLS)- CEE and SE countries}  
 \begin{small} 
-	 \input{regHm1.tex}
+	 \input{regCEE.tex}
       \label{pooling} 
 \end{small}
 \end{table}
 \end{spacing}
 %%% END: TABLE
 
+\begin{spacing}{.9}
+\begin{table}[H]
+\centering 
+\caption{CASP vs. volunteering (OLS)- WE countries}  
+\begin{small} 
+	 \input{regWE.tex}
+      \label{pooling} 
+\end{small}
+\end{table}
+\end{spacing}
+%%% END: TABLE
+
+Volunteering has a positive impact on QoL regardles the approach has been chosen. The multilevel model estimated is 0.91 and is it statistically significant at the level less than 1\%. The fixed effect approach estimates range from 0.28 for Denmark to 1.84 for Italy. All coefficients are significant except the one for Luxemburg. The high point estimates are for the low rate countries such as: Greece, Italy, Spian, Isreal, Poland, Estonia. The low estimates are for: Denmark, Belgium, Germany, Switzerland and Czech Republic. \\
+
+Estimates on the control socio-economics variables have expected signs. Better subjective health and higher income increase QoL. Age is positively related to QoL in rich countries - Belgium, Danmark, Germany, Isreal, Luxemburg - and negatively in Austria, Greece, Spain, Sweden, Czech Rep.,  Slovenia, Estonia. In Poland, Switzerland, Portugal, France, Italy the age variable has appeared to be insignificant. In the random effect approach the age effect  showed up with the minus sign. The female effect turned out to have different directions among the analysed countries, also.  It has shown higher impact for women in two Scandinavic countries - Denmark and Sweden - and in Estonia. Average effect from the random effect approach suggests lower impact for women. In majority of countries education showed positive effect on QoL. Only in Austria, Denmark, Sweden we get statistically significant negative values. Income has either positive effect or it has no effect on QoL. \\ 
+
 \begin{figure}[H]
 \centering
-\caption{Pooling: \textbf{popraw format}} 
+\caption{Expected casp from pooling model \textbf{popraw format}} 
 \label{fig:pooling1}
 \begin{minipage}{1\linewidth}
 \subfloat[Predictive casp]{\includegraphics[height=2.7in]{pooling.pdf}}\quad
-\subfloat[Change in predictive casp]{\includegraphics[height=2.7in]{d_casp_pooling.pdf}}\quad
-\subfloat[Volunteering effect]{\includegraphics[height=2.7in]{vol_margins.pdf}}~\\
+\subfloat[Change in predictive casp]{\includegraphics[height=2.7in]{d_casp_pooling.pdf}}~\\
+
+\end{minipage}
+\end{figure}
+
+   
+
+
+The results are consistent with the previouse finding on nonlinear effect of economic development on an impact of volunteering on QoL. We find higher effect in Italy, Greece, Isreal than in Poland, Denmark and Switzerland. This  is consistent with \citet{haski09} and with unconditional analysis with the Kendall's correlations. This is not very suprising since we do not control for differences in within group characteristics. So far, we know that volunteers have higher QoL but we do not know whether it is becouse they are active as volunteers or becouse they are generally have higher QoL. Positive estmiates on volunteering variable suggests that volunteering does have positive impact on QoL. In order to see how strong is that effect and whether it is different among countries we apply Juhn-Murphy-Pierce decomposition. 
+
+\subsection*{Decomposition into endowment and price effect}
+
+\subsubsection{Description of JMP method}
+
+\begin{figure}[H]
+\centering
+\caption{JMP Decomposition} 
+\label{fig:pooling1}
+\begin{minipage}{1\linewidth}
+\subfloat[JMP decomposition]{\includegraphics[height=2.7in]{ols_margins.pdf}}\quad
+\subfloat[Volunteering effect (price) ]{\includegraphics[height=2.7in]{vol_margins.pdf}}~\\
+
 \end{minipage}
 \end{figure}
 
 
-
- In this approach the country effect depends on explantory variables and any deviation from its conditional expected value is treated as a random event. It means that the deviations from the grand mean are not related to country characteristics incuded in a model. This leads to the random effect specification.  The second approach assumes lack of the universal relation for all countries due to the strong country effects that  encompasses the differences in history, cultural factors and institutions that are seen as the unique characteristic of a country. Here for each country we need to estimate the separate model. This is consistent with findings that "contextual factors, such as a country’s historical background or institutions, determine levels of volunteering to a large extent" (\citet{plagnol10}). This assumption leads to the fixd effect specification in which the estimates for one country give us no information on the effect for other ones. The fixed effect approach does not allow for predicing changes in relation between volunteering and QoL in a given country using the predictions for other countries.
-
-The first approach can be represented by a multilevel linear regression model. Below we consider a model with a varying intercept for countries and varying coefficient for impact of volunteering on QoL. Random intercept for each country allows for different values of QoL within a country by gender, age and other control variables. In the model we make the volunteering parameter to depend on the rate of volunteering :
-
-
-
-
-
-
-
-
- \begin{eqnarray}
-  \label{eq:casp_mlm}
-	casp_{i,c}\sim N(\beta_{0}+ u_{c} +  \beta_{1,c} * vol_{i,c}+\gamma*Z_{i,c},\sigma^{2}_{y}) \\	
-	\beta_{1,c} \sim N(\gamma_{r}*ln(r_{c}),\sigma^{2}_{r})
- \end{eqnarray}
- 
-where $r_{c}$ is a country volunteering rate calculted from the wave 6 of the SHARE survey. \\ 
-
-The second approach is equivalent to the estimation of the separate models for each country : 
- 
-  \begin{eqnarray}
-	casp_{i,c}= \beta_{0c}+ \beta_{1c}*v_{i,c} + \gamma_{c}*Z_{i,c} + \epsilon_{i,c}
- \end{eqnarray}
-
-where $v_{i,c}$ is a binary variable equal to 1 if a person i from a country c is involved in  volunteering  and a matrix $Z_{i,c}$ includes the following controls : age, gender, education measured in years of formal educatin, a country average gdp per capita expressed in purchasing power parity in years X-Y and a equivalized houseshold level income also in ppp units.  In the model $\beta_{0c}$ controls for country-specific factors   and $\beta_{1c}$ describes impact of volunteering on QoL. For each country we get the separate coefficient while controlling for the general country effect $\beta_{0c}$ and a set of confounders. No restrictions are assumed on the variance of the error terms for each country. \\
-
-Below we compare results from both models \\ 
-%%%%%%%%%%%%%%%%%%  LINEAR REGRESSION (Separate models) %%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{spacing}{.9}
-\begin{table}[H]
-\centering 
-\caption{CASP vs. volunteering (OLS)- part 1}  
-\begin{scriptsize} 
-	 \input{SepMod.tex}
-      \label{SepMod} 
-\end{scriptsize}
-\end{table}
-\end{spacing}
-%%% END: TABLE
-
-\begin{spacing}{.9}
-\begin{table}[H]
-\centering 
-\caption{CASP vs. volunteering (OLS) - part 2}  
-\begin{scriptsize} 
-	 \input{SepMod1.tex}
-      \label{SepMod1} 
-\end{scriptsize}
-\end{table}
-\end{spacing}
-%%% END: TABLE
-
-
-%%%%%%%%%%%%%%%%%%  MLM %%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%% TABLE
-\begin{spacing}{.9}
-\begin{table}[H]
-\centering 
-\caption{Wellbeing v. volunteering (Multilevel Linear Model)}  
-\begin{scriptsize} 
-	 \input{regHm3.tex}
-      \label{regB} 
-\end{scriptsize}
-\end{table}
-\end{spacing}
-%%%% END: TABLE
-
-%%%%%%%%%%%%%%%%%%  MLM %%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-Volunteering has a positive impact on QoL regardles the approach has been chosen. The multilevel model estimated is 0.91 and is it statistically significant at the level less than 1\%. The fixed effect approach estimates range from 0.28 for Denmark to 1.84 for Italy. All coefficients are significant except the one for Luxemburg. The high point estimates are for the low rate countries such as: Greece, Italy, Spian, Isreal, Poland, Estonia. The low estimates are for: Denmark, Belgium, Germany, Switzerland and Czech Republic. \\
-
-Estimates on the control socio-economics variables have expected signs. Better subjective health and higher income increase QoL. Age is positively related to QoL in rich countries - Belgium, Danmark, Germany, Isreal, Luxemburg - and negatively in Austria, Greece, Spain, Sweden, Czech Rep.,  Slovenia, Estonia. In Poland, Switzerland, Portugal, France, Italy the age variable has appeared to be insignificant. In the random effect approach the age effect  showed up with the minus sign. The female effect turned out to have different directions among the analysed countries, also.  It has shown higher impact for women in two Scandinavic countries - Denmark and Sweden - and in Estonia. Average effect from the random effect approach suggests lower impact for women. In majority of countries education showed positive effect on QoL. Only in Austria, Denmark, Sweden we get statistically significant negative values. Income has either positive effect or it has no effect on QoL. \\    
-
-The fixed effect approach allows us to decompose the within country difference in means of QoL  into the volunteering effect and the effect due to differences in characteristics (the endowment effect): \footnote{It is possible since $\bar{casp_{c}} = \bar{\hat{casp_c}}$} 
-
- \begin{eqnarray}
- \label{eq:casp_ols}
-E[casp_{c}|v_{i,c}=1] - E[casp_{c}|v_{i,c}=0]= \beta_{1c}+ \gamma_{c}*[\bar{Z}_{c}(1)-\bar{Z}_{c}(0)]
- \end{eqnarray}
-
-with $\bar{\hat{casp_{c}}}(1)$ being a predicted average QoL for a volunteer and $\bar{\hat{casp_{c}}}(0)$ being a predicted average QoL for a non-volunteer.  The first term measures the volunteering effect for country c, the second term absorbs the effect of the difference in the values of covariates among volunteers and non volunteers (the endowment effect) with $\bar{Z}_{c}(1)$ being average endowment among volunteers and $\bar{Z}_{c}(0)$ among non-volunteers. \\
-
-The mean difference in QoL in the random effect approach can be decomposed as: 
-
- \begin{eqnarray}
- \label{eq:decomp_mlm}
-E[casp_{c}|v_{i,c}=1]-E[casp_{c}|v_{i,c}=0]= [\beta_{1}+u_{r}(c)]+ \gamma*(\bar{Z}_{c}(1)-\bar{Z}_{c}(0))+ [\bar{\epsilon}_{i,c}(1)-\bar{\epsilon}_{i,c}(0)]
- \end{eqnarray}
-
-\begin{figure}[H]
-\centering
-\caption{Volunteering and wellbeing (OLS)} 
-\label{fig:casp_ols}
-\begin{minipage}{1\linewidth}
-\subfloat[Fixed effect model]{\includegraphics[height=2.7in]{ols_fitcry.pdf}}\quad
-\subfloat[Random effect model]{\includegraphics[height=2.7in]{mlmQ_fit0.pdf}}~\\ 
-{\footnotesize Notes: }~\\
-{\footnotesize Source: Own calculations based on SHARE Wave 6.}
-\end{minipage}
-\end{figure} 
-
-The results from both models are consistent with the previouse finding on a weak relation between volunteering and QoL in highly developed countries. This conclusion is robust to the used approach in modelling. However, the models disagree in the  predictions of importance of volunteering in the low rate countries. Controlling for confounders in the fixed effect approach shows rather decreasing relation between popularity of volunteering at a country level and its impact on QoL.  It shows higher effect in Italy, Greece, Isreal and Poland than in the countries with the higher rates such as Denmark, Switzerland, Luxemburg, Sweden. This negative relation is consistent with the two explanations given in the \citet{haski09}. On the other hand, the random effect approach gives us a solution resembling a non-linear relation with the highest impact in Italy and Isreal. In countries with low rates and in these where they are high the impacta are weaker. This makes the results from the random effect model a bit like those obtained with the Kendall's correlations. \\
-
-Controlling for age, gender, education, economic development of a country and household's income generally decreases an impact of volunteering in QoL. The fixed effect approach suggests especially significant effect of a selection into volunteering in Poland and Estonia. Selection is also important in highly developed countries like Luxemburg and France. The selection effect seems to have smaller role in Italy, Greece, Spain, Portugal and Isreal. In Sweden the selection plays a minor role what has been expected after comparing the socio-economic characteristics of volunteers and non-volunteers. It is intresting that in two formerly socialistic countries - Poland and Estonia - selection into volunteering is more important than in Southern Europe. It suggests that nowdays volunteering of elderly in CEE coutries adds reltively less to average QoL  than in Southern Europe. It may be becouse volunteers in CEEs are more often selected from those who had high level of QoL even without the volunteering. This may be realted to weak infrastruture for volunteering in these countries what, as was pointed in \citet{plagnol10}, causes that only highly motivated individuals engage in voluntary activities. \\ 
+%Controlling for age, gender, education, economic development of a country and household's income generally decreases an impact of volunteering in QoL. The fixed effect approach suggests especially significant effect of a selection into volunteering in Poland and Estonia. Selection is also important in highly developed countries like Luxemburg and France. The selection effect seems to have smaller role in Italy, Greece, Spain, Portugal and Isreal. In Sweden the selection plays a minor role what has been expected after comparing the socio-economic characteristics of volunteers and non-volunteers. It is intresting that in two formerly socialistic countries - Poland and Estonia - selection into volunteering is more important than in Southern Europe. It suggests that nowdays volunteering of elderly in CEE coutries adds reltively less to average QoL  than in Southern Europe. It may be becouse volunteers in CEEs are more often selected from those who had high level of QoL even without the volunteering. This may be realted to weak infrastruture for volunteering in these countries what, as was pointed in \citet{plagnol10}, causes that only highly motivated individuals engage in voluntary activities. \\ 
 
 
 % It seems that in countries where the rates of volunteering are low - Poland, Spain, Greece, Estonia - the large difference in the levels of QoL are in large part due to the differences in characteristics. This means that volunteers had had higher QoL than non-volunteers even if they would not be involved in volunteering. The role of unobserved characteristics is noticebly important in Poland. In Italy and Isreal the volunteering effect explains larger part of the differences in QoL than in other countries. The volunteering effect is weak among countries with the large rates of volunteering except Denmark. The Danish effect is larger than the effects in Switzeralnd, Belgium, Luxemburg, Germany, France and Austria. Its absolute level is simialar to the levels in four countries with the smallest rates. \\
