@@ -211,10 +211,10 @@ In the paper we consider the formal volunteering that is conducted within a form
 \begin{table}[H]
 \centering 
 \caption{Volunteering rates (\%)}  
-\begin{scriptsize} 
+\begin{small} 
 	 \input{OECD2016_SHARE.tex}
       \label{Rates} 
-\end{scriptsize}
+\end{small}
 \end{table}
 \end{spacing}
 %%%% END: TABLE
@@ -412,9 +412,47 @@ Estimates on the control socio-economics variables have expected signs. Better s
 
 The results are consistent with the previouse finding on nonlinear effect of economic development on an impact of volunteering on QoL. We find higher effect in Italy, Greece, Isreal than in Poland, Denmark and Switzerland. This  is consistent with \citet{haski09} and with unconditional analysis with the Kendall's correlations. This is not very suprising since we do not control for differences in within group characteristics. So far, we know that volunteers have higher QoL but we do not know whether it is becouse they are active as volunteers or becouse they are generally have higher QoL. Positive estmiates on volunteering variable suggests that volunteering does have positive impact on QoL. In order to see how strong is that effect and whether it is different among countries we apply Juhn-Murphy-Pierce decomposition. 
 
-\subsection*{Decomposition into endowment and price effect}
+\subsection*{Decomposition into endowment and price effect (JMP)}
 
-\subsubsection{Description of JMP method}
+Suppose that casp for volunteers and non-volunteers can be expressed by two separate equations:
+
+  \begin{eqnarray}
+	casp_{vi}= X_{vi}\beta_{vi}+ \epsilon_{vi}
+ \end{eqnarray}
+where $v=\big\{0,1\big\}$ denotes volunteers and non-volunteers, respectively. $X_{i}$ includes exogenous variables and $\beta_{i}$ is a vector of estimates of the casp equation. The stochastic component $\epsilon_{vi}$ is distributed with a mean zero and a variance of $\sigma_{vi}^{2}$. Let $F_{0}()$ and $F_{1}()$ denote  the cumulative distributions functions of the residuls for the separate models and $F()$ denotes the function for the whole sample. Then the pooled model is:  
+
+  \begin{eqnarray}
+	casp_{i}= X_{i}\beta+ F^{-1}(p_{i}|X_{i})
+ \end{eqnarray}
+
+where $F^{-1}(.)$ is the inverse of the cumulative distribution function. Assuming that $\beta_{0}=\beta_{1}$ we may calculate hypothetical outcomes that would have occured if the "prices" had been the same in both groups:
+
+  \begin{eqnarray} 
+	casp^{H}_{1i}= X_{1i}\beta+ F^{-1}(p_{1i}|X_{1i}) \label{eq:1} \\
+	casp^{H}_{0i}= X_{0i}\beta+ F^{-1}(p_{0i}|X_{0i}) \label{eq:2}
+ \end{eqnarray}
+
+Let equation \ref{eq:1} denote as $casp^{H}_{1i}(\beta,F|X_{1i})$ and equation \ref{eq:2} denote as $casp^{H}_{0i}(\beta,F|X_{0i})$. Also, we may define $casp^{H}_{vi}(F|\beta_{v},X_{vi})$ where quantities $X$ and prices $ \beta_{v}$ are different but the residual distributions are the same. Then, we may define $ casp_{vi}(\beta_{v},F_{v})$ that denotes the original values. For those we use just short notation  $casp_{vi}$.
+Let notice that:
+
+\begin{enumerate}
+
+\item  $ E(X_{1},X_{0})=\bigg[E[casp^{H}_{1}(\beta,F)|X_{1}]-E[casp^{H}_{0}(\beta,F)|X_{0}\bigg]$ is the difference in expected casp due to different endowments in variables included in X. We call it the endowment effect. 
+
+\item $ V(\beta_{0},\beta_{1}) =\bigg[ [E[casp^{H}_{1}(F|\beta_{1},X_{1i})]- E[casp^{H}_{0}(F|\beta_{0},X_{1i})]] -E(X_{1},X_{0})\bigg]$ is the difference in the expected casp due to different valuations of variables in X. We call it "volunteering effect"
+
+\item $ V(F_{0},F_{1}) =\bigg[ [E[casp_{1}]-E[casp_{0}]] - [E[casp^{H}_{1}(F|\beta_{1},X_{1i})]- E[casp^{H}_{0}(F|\beta_{0},X_{1i})]] \bigg] $ is the difference caused by differences in unobservables. We will call it "unobservables effect".
+
+\end{enumerate}
+
+Finally  we may write:
+  \begin{eqnarray} 
+	E[casp_{1}]-E[casp_{0}]= E(X_{1},X_{0}) +  V(\beta_{0},\beta_{1}) +  V(F_{0},F_{1})
+ \end{eqnarray}
+
+
+The three components are presented below:
+
 
 \begin{figure}[H]
 \centering
@@ -426,34 +464,15 @@ The results are consistent with the previouse finding on nonlinear effect of eco
 
 \end{minipage}
 \end{figure}
-
-
-%Controlling for age, gender, education, economic development of a country and household's income generally decreases an impact of volunteering in QoL. The fixed effect approach suggests especially significant effect of a selection into volunteering in Poland and Estonia. Selection is also important in highly developed countries like Luxemburg and France. The selection effect seems to have smaller role in Italy, Greece, Spain, Portugal and Isreal. In Sweden the selection plays a minor role what has been expected after comparing the socio-economic characteristics of volunteers and non-volunteers. It is intresting that in two formerly socialistic countries - Poland and Estonia - selection into volunteering is more important than in Southern Europe. It suggests that nowdays volunteering of elderly in CEE coutries adds reltively less to average QoL  than in Southern Europe. It may be becouse volunteers in CEEs are more often selected from those who had high level of QoL even without the volunteering. This may be realted to weak infrastruture for volunteering in these countries what, as was pointed in \citet{plagnol10}, causes that only highly motivated individuals engage in voluntary activities. \\ 
-
-
-% It seems that in countries where the rates of volunteering are low - Poland, Spain, Greece, Estonia - the large difference in the levels of QoL are in large part due to the differences in characteristics. This means that volunteers had had higher QoL than non-volunteers even if they would not be involved in volunteering. The role of unobserved characteristics is noticebly important in Poland. In Italy and Isreal the volunteering effect explains larger part of the differences in QoL than in other countries. The volunteering effect is weak among countries with the large rates of volunteering except Denmark. The Danish effect is larger than the effects in Switzeralnd, Belgium, Luxemburg, Germany, France and Austria. Its absolute level is simialar to the levels in four countries with the smallest rates. \\
-   
+ 
+Volunteers have higher level of quality of life. Part of the difference between them and non-volunteers can be explained by the differnces in socio-economic characteristcs and other characteristics that were not observed in the data. Sums of the endowment effects and the unobservables effects are not very diverse among countries. Two exceptions are Greece and Sweden were those effects are smaller than in other countries. Taking into account those factors that are not directly related to volunteering does not change the main result. We conclude about bigger impact of volunteering on individual QoL in countries where volunteering is relatievly less popular. However, country specific factors are possible reasons for significant heterogenity among countries with low volunteering rates. Poland, Czech Republic and Estonia present the intresting case for the comparison in the future.   
  
 \section{Discussion}
 
-We applied three empirical methods to discuss an association of volunteering with QoL. Firstly, we calculated the Kendall tau-b correlation coefficients and compared  our results with those discussed in \citet{haski09}. Then, we applied a multivariate linear approach to QoL with a set of controls for socio-economic characteristics as exogenouse variables. We estimated the model with two different specifications -  as the fixed effect model and as the random effect one.\\
-
-We were interested in the two issues in this study: a) whether the relation between volunteering rates for elderly and QoL differ according to countires and b) how that relation changes in the volunteering rates. We found the support for our first hypothesis regardless of the method used. The results of the Kendall tau-b correlation analysis as well as the esimates of a multivariate liner regression models showed higher QoL among volunteers. They showed different associatin between volunteering and QoL according to countries, too. This variation between countries was observed even after controling for socio-demographic characteristics such as age, education, gender and income. Our results are in line with the previouse studies (\citet{haski09}, \citet{plagnol10}). The multivariate approach reveals that part of an unconditional correlation between volunteering and QoL may be explained by the selection of people into the voluntareeing sector. Not taking into account difefrences in characteristics between volunteers and non-volunteers leads to the overestimation of the impact of voluntering on QoL since volunteers are recruited from people whose characteristics are positivly correlated with QoL. Our study showed that the significance of selection effect differs according to countries. Despite that, the volunteering effect on QoL is still quite strongly diverse according to countries even after controlling for possible effect due to selection. \\
-
-We did not find the clear answer for the second question. Both regression approaches suggested the weaker volunteering effect in countries with high rates. This conlusion seems to be robust in all applied methods. Conclussions differ in regard of countries with the low volunteering rates.The fixed effect approach, that assumes significant role for country specific cultural and historical factors, showed stronger effect in those countries than in the first group.This is consistent with the statment in \citet{plagnol10} that stress the role of selection into the volunteering sector - " ... volunteers in countries with a low frequency of volunteering displayed higher values on several of the wellbeing measures than those in other countries. (...) in countries where volunteering is generally less common, those who do participate in formal or informal volunteering have the highest levels of well-being. It may be that in these countries, only those who are most likely to benefit from volunteering actually volunteer". Unfortunately the fixed effect approah does not allow us to predict what would be the effect of increasing popularity of volunteering in these countries on the basis of the results for other countries. But some speculative conclussion may be rised from the random effect approach that assumes the common model for all countries. The result of that approach suggests the strongest association between voluntering and QoL among countries with the mid-range volunteering rates. Hence, we allow that increasing the popularity of volunteering in countries where the current rates are low may decrease in averege impact of it on QoL but we do not expect this to be significance in size.  \\    
-
-\textit{The development of volunteer programs that maximize outcomes requires better understanding of the mechanisms through which this particular activity produces positive effects on older adults(...) A clearer understanding about differential effects of volunteering could guide program development around targeted recruitment to increase health outcomes as well as provide insights into the causal relationship between volunteering and health. (...) I
-n sum, there is a general understanding about positive effects of volunteering on older adults. We need more clarity about specific conditions of volunteering that produce these positive effects. At this point, it appears that less advantaged older adults, in terms of social, economic, and health resources, benefit more from volunteering, but we do not have enough evidence to advocate for targeting certain groups to maximize volunteer outcomes. There is little specific research on program features that maximize outcomes. Such research would clearly inform the development of interventions that are most beneficial to older adults. Ultimately, researchers need to vary conditions of the volunteer experience (the amount and type of work, etc.) but this experimental methodology will be very challenging. (...) Clearly, selection is an issue in
-this work, as older adults with higher levels of well-being volunteer. The work of Thoits and Hewitt (2001),
-Li and Ferraro (2005), and Hao (2008) documented that
-both forces operate—that is, older adults with higher levels of well-being volunteer and also experience positive effects because of volunteer participation. : Morrow-Howell 2010}.
-
-
-We belive that one issue in regard of the relation between volunteering and QoL rised in the study needs the speciall attantion. This study is built up on the previous research discussed in \citet{haski09}. Our study extends it by considering Central and Eastern European countries. The volunteering rates are low in all these countries. This made the sample of countries more diverse. We showed that the shares of volunteers in the age group of 50-65 in Poland, Estonia and Slovenia are rather high. The shares of older elderly - in age 70+ - in those countries are low. All of the above findings - low volunteering rates and age structure - may be related to age cohort effects. Particpants of the SHARE survey analysed in the study had their working career years during the socialistic regime. This might have two negative consequences on their wilingness to paricipate in volunteering. First, volunteering can badly associate them. Secondly, they are in bad health due to poor working conditions in the past (Wahrendorf, 2016). These factors make the population of elderly in CCE in the studied sample significantly different to their peers (równieśnicy) in other european countries. But we may assume that they are much different to future elderly in CEE whose will be much like their peers from Western Europe. All of these suggests that we may be in favor of the fixed effect approach for the current analysis that's goal is to describe differences among countries. At the same time we may prefer  the random effect model when we are looking for predictioni how volunteering will influence QoL in countries where the current rates are low. \\
-
-It is unfortunate that the volunteering is not very popular among elderly in less developed European countries. However if our understanding of the selection into volunteering is correct we should expect increase in the rates even without any special public policy.  
-
-
+We used data from the wave 6 of the SHARE survey to discuss an association of volunteering with QoL. We calculated the Kendall tau-b correlation coefficients and compared  our results with those discussed in \citet{haski09}. We found the highest impact of volunteering on QoL in countries with mid-range values of the volunteering rates - Italy, Isreal, Austria. In countries with the high rates (Denmark, Switzerland, Belgium) and in countries with low rates (Poland, Greece, Czech Rep., Spain) that impact was lower. This confirmed Haski's finding about non-linear relation between impact of volunteering on QoL and economic development. 
+In the second part of the paper we applied a multivariate analysis to check whether non-random selection into volunteering may be responsible for the above finding. Firstly, we showed that economic development positively influences the popularity of volunteering among elderly. In better developed countries we should expect to see larger fractions pf elderly involved in volunteering. Secondly, we showed that voluteers and non-volunteers differ in socio-economic characteristics within countries as well as between countries. The positive role of tertiary education was the only consistently significant factor for all countries. Two other variables that were significant in majority of countries were: income and health. Household and family based variables such as number of people living together in a household and number of grandchildren had a limited influence on choosing volunteering. The positive role of education and income makes us to expect higher QoL among volunteers than among non-volunteers even if those from the second group had not been involved into volunteering. Not taking into account diffrences in characteristics between volunteers and non-volunteers leads to the overestimation of the impact of voluntering on QoL since volunteers are recruited from people whose characteristics are positivly correlated with QoL. That is why we decomposed the mean difference in QoL conditional on volunteering into two elements. The first one measured the role of differences in socioeconmic variables and second one measured the  volunteering effect on QoL. Thirdly, thanks to such decomposition we showed that after controlling for the differences in endowment in socioeconomic factors the relation between  volunteering and its impact on QoL is more linear with higher impact among low rate countries and lower impact among high rate countries. This is consistent with the statment in \citet{plagnol10} that stress the role of selection into the volunteering sector - " ... volunteers in countries with a low frequency of volunteering displayed higher values on several of the wellbeing measures than those in other countries. (...) in countries where volunteering is generally less common, those who do participate in formal or informal volunteering have the highest levels of well-being. It may be that in these countries, only those who are most likely to benefit from volunteering actually volunteer". Also, the work of \textbf{Thoits and Hewitt (2001), Li and Ferraro (2005), and Hao (2008)} documented that older adults with higher levels of well-being volunteer (from Morrow-Howell 2010).
+We found a strong support for our first hypothesis stating that there is significant variability among countries in a way how volunteering influences QoL.  Our results are in line with the previouse studies (\citet{haski09}, \citet{plagnol10}). We did not find the clear answer for the second hypothesis. We are likely to agree that volunteering has rather weak effect in countries with high rates. We consider the explanation given in \citet{haski09} stressing the role of feelings of necessity is the valid one \footnote{\citet{haski09} wrote "(...) in countries where the welfare system is strong such as in Northern Europe, people volunteer more due to a stronger sense of solidarity,but perhaps feel less needed—if they will not deliver the services, the state or someone else would. Feelings of necessity are very important in creating satisfaction and attitudinal commitment among volunteers (Cnaan and Cascio 1999) and that may explain why the correlation between volunteering and wellbeing was weaker in these countries."}. It is possible that some social public expenditure might crowd out the private time donation. Bredtmann (2016) noticed that to conlcude about it we have to have clear understanding of the choice process leading to volunteering. If people treat government spendig as a near perfect substitute for own activity then the crowding will have a place. If the volunteering decision is idependent on government spending than the crowding out should not be observed. The weak relation between vounteering and quality of life among highly developed countries in Europe does not allow us to reject the preasumption about too strong govermental support. The issue seems to have practical consequences so it should be discussed in future research.     
+The crowding-out issue has rather minor significance in countries where the welfare state is weak. In these countries  volunteering among elderly is much more heterogenous. This suggests the bigger role for country specific cultural and historical factors. It may be also that the less developed  institutional framework makes costs of enagaging in volunteering higher in countries with weaker welfare system. This opens a possibility for efficiency enchancing state intervation. Demographic ageing and improvements of  health among elderly explain why public actions targeted in lowering costs of volunteering can bring noticable gain for society. Such actions make sense since number of people who reach their ‘third age’ without severe physical or mental impairment has been increasing. These people may continue their life by being engage in productive activities with benefit for themselves for others. If the two main economic barriers -  poor health and low income - have been losing their strength it is time for governments to take active role in promoting volunteering among volunteers. This might be especially important for countries in Central and Eastern Europe where the current rates of volunteering are low. 
 
 
 \begin{thebibliography}{87}
