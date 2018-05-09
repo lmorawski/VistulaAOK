@@ -1,25 +1,25 @@
 countrySHARE	Mean	Mean	Mean
 	Share1	Share6	Oecd
-AT	8.5	20.1	27.1
-BE	15.6	26.6	26.1
-DK	17.7	31.4	23.9
-FR	14.2	22.9	28.3
-DE	10.8	23.9	25.4
-GR	3.1	7.0	4.6
-IS	11.9	15.5	21.7
-IT	6.7	11.8	16.7
-NL	21.9		37.4
-SE	2.4	6.3	14.0
-S	18.0	14.7	12.8
-CH	14.5	29.5	31.8
-CZ		8.9	12.1
-PL		3.4	9.2
-IR			36.9
-LU		24.7	29.3
-HU			7.4
-PT		9.6	10.1
-SL		12.2	30.3
-EE		8.8	14.0
+Austria	8.5	20.1	27.1
+Belgium	15.6	26.6	26.1
+Denmark	17.7	31.4	23.9
+France	14.2	22.9	28.3
+Germany	10.8	23.9	25.4
+Greece	3.1	7.0	4.6
+Isreal	11.9	15.5	21.7
+Italy	6.7	11.8	16.7
+Netherlands	21.9		37.4
+Sweden	2.4	6.3	14.0
+Spain	18.0	14.7	12.8
+Switzerland	14.5	29.5	31.8
+Czechia		8.9	12.1
+Poland		3.4	9.2
+Irleand			36.9
+Luxemburg		24.7	29.3
+Hungary			7.4
+Portugal		9.6	10.1
+Slovenia		12.2	30.3
+Estonia		8.8	14.0
 			
 Total	12.1	16.3	21.0
 

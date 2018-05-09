@@ -210,7 +210,7 @@ In the paper we consider the formal volunteering that is conducted within a form
 \begin{spacing}{.9}
 \begin{table}[H]
 \centering 
-\caption{Volunteering rates (\%). {\bf TODO:} spell out country names}  
+\caption{Volunteering rates (\%).} 
 \begin{small} 
 	 \input{OECD2016_SHARE.tex}
       \label{Rates} 
@@ -237,26 +237,19 @@ Table \ref{CaspTtest} shows that the average levels of quality of life among vol
 
 % W caspTtest \begin{table}[htp] zamien na \begin{table}[H]
 \begin{table}[H]
-\begin{minipage}[b]{0.56\linewidth}
-\centering
-\begin{spacing}{.9}
-\centering 
+\begin{spacing}{.9} 
 \begin{scriptsize} 
 	 \input{caspTtest.tex}
       \label{CaspTtest} 
 \end{scriptsize}
 \end{spacing}
-    \label{table:student}
-\end{minipage}\hfill
-\begin{minipage}[b]{0.4\linewidth}
-\centering
-\captionof{figure}{Change in quality of life v volunteering rate. {\bf TODO:} on y axix say that differemce is volunteers-non-volunteers}
-\includegraphics[height=2.5in]{abs_casp.pdf}
-% \captionof{figure}{Change in quality of life}
-\label{fig:casp}
-\end{minipage}
 \end{table}
 
+\begin{center}
+\captionof{figure}{Average CASP for volunteers - average CASP for non-volunteers}
+\includegraphics[height=2.5in]{abs_casp.pdf}
+\label{fig:casp}
+\end{center}
 
 The means in Eastern European countries (Poland, Estonia, Czech Republic) are higher than in Southern European for both volunteers and non-voluteers. The distributions of casp for volunteers and nonvolunteers show higher concentration of large values among volunteers (see Appendix). The differences in the means decrease for the countries with higher volunteering rate.  The differences in  Denmark, Switzerland, Belgium and Germany are less then 1.0. In countries where the rates are low the differences are above 1.5 - in Poland it is 2.7, in Spain 1.8, in Greece 1.7 and in Estonia 2.6. The negative relation suggests that "more volunteers in a country makes smaller increase in a volunteer wellbeing." 
 
@@ -273,11 +266,11 @@ We use the Kendall's tau-b correlation coefficient to describe the association b
 
 \begin{figure}[H]
 \centering
-\caption{Correlations of volunteering and subjective wellbeing.  \textbf{popraw format}} 
+\caption{Correlations between volunteering and subjective wellbeing.}  
 \label{fig:taub}
 \begin{minipage}{1\linewidth}
-\subfloat[Life satisfaction (\citet{haski09})]{\includegraphics[height=2.7in]{Haski_lifesat.pdf}}\quad
-\subfloat[Quality of life (casp)]{\includegraphics[height=2.7in]{Kendall_casp.pdf}}~\\
+\subfloat[Life satisfaction \citep{haski09}]{\includegraphics[height=2.4in]{Haski_lifesat.pdf}}\quad
+\subfloat[Quality of life (casp)]{\includegraphics[height=2.4in]{Kendall_casp.pdf}}~\\
 {\footnotesize Notes: (a) wave 1 (2006-2007), (b) wave 6 (2015) }~\\
 {\footnotesize Source: \citet{haski09} [Table 3] and own calculations based on SHARE Wave 6.}
 \end{minipage}
@@ -294,20 +287,31 @@ We use the Kendall's tau-b correlation coefficient to describe the association b
 
  The significance tests confirm concave relation between the effect of volunteering on QoL and values of the volunteering rate. The p-values for the tests are given in the Appndix.  The point estimate for tau-b for Germany (0.109) is not statistically different from the estimate for Slovenia (0.106), Spain, Belgium, Portugal, Poland, Switzerland, Croatia and Greece (0.082). This homogenous group in dimension of the impact is highly heterogenous in dimension of the rate of volunteering. At the same time the tau-b for Estonia (0.141) is statistically different from the tau-b estimates in Slovenia (0.106), Poland(0.090) and Czech Republic (0.053) but  is the same as in France, Luxemburg and Austria. The tests confirm the finding in \citet{haski09} about non-linear pattern of associations between  the rate of volunteering and its impact on wellbeing. Figure \ref{fig:taub} shows that our approach based on the tau-b measure and casp index makes that finding even more convincing. \citet{haski09} discussed two explanations regarding concavity of the realtion betweem the volunteering rate and its impact on wellbeing. The first one stresses differences in motives for volunteering according to the economic developmnent of a country. In highly developed countries with the strong welfare system volunteering is a part of a social norm and it is not always related to solving real problems. In less developed countries with weaker welfare state, people are involved in volunteering only becouse of their altruistic preferences without feeling any social pressure. That is why they more often feel the sense of fullfilment  The second explanation is based on the Social Origins Theory \textbf{(Salamon and Anheier 1998)}. This argument states that the state through its genorouse social welfare policy satisfies demand for most social needs efficiently constraining supply of volunteering by non-govermental organizations. This crowding out effect does not exist in countries with less genorouse social welfare policy. In those countries volunteers are usually involved in solving the important social problems what increases their subjective wellbeing. Both arguments help to understand why volunteering can have a limited impact on wellbeing in reach countries. However, they do not explain why that impact may also be low in less developed countries. \textbf{[AOK: something is missing here. It would be nice to have some discussion on reasons why the association may be low when the rate is low. Any idea ? for some general ideas see commit message]} \\
 
-However, it is possible that the low associations observed in these countries are due to selection into volunteering people who \textbf{[i tak sa zadowolni, nawet bez wolonariatu]}. Table 3 presents descriptive statistics for volunteers and non-volunteers together with the significance tests for the differences in means.  \\
+However, it is possible that the low associations observed in these countries are due to selection into volunteering people who \textbf{[i tak sa zadowolni, nawet bez wolonariatu]}. Tables 3 and 4 present descriptive statistics for volunteers and non-volunteers together with the significance tests for the differences in means. Volunteers are denoted by an index 1, while non-volunteers by an index 0.  \\
 
-{\bf TODO:} explain that 0 nonvolunteers and 1 volunteers
 % POdzielić kraje na CEE, SE i WE
 %%% TABLE
-\begin{spacing}{.9}
-\centering 
-\begin{tiny} 
-	 \input{descTtest0.tex}
-      \label{DescT0} 
-\end{tiny}
-\end{spacing}
-%%%% END: TABLE
 
+\begin{table}[H]
+\begin{spacing}{.9}  
+\centering 
+ \caption{Descriptive statistics - Western Europe}
+	 \input{descTtest0WE}
+      \label{DescT0WE} 
+
+\end{spacing}
+\end{table}
+
+
+\begin{table}[H]
+\begin{spacing}{.9}  
+\centering 
+ \caption{Descriptive statistics - Southern and Central Europe}
+	 \input{descTtest0CEE}
+      \label{DescT0CEE} 
+
+\end{spacing}
+\end{table}
 Both groups are different in their socio-economic characteristics. In all countries volunteers have better formal education (higher average number of years of education). Everywhere the shares of people with tertiary education are higher among volunteers, while the shares of people with primary education are lower. In countries with low volunteering the differences in a education structure are larger. In Poland the ratio of a share of people with a tertiary  education among volunteers over a share of such people among non-volunteers is 3.49. The respective ratios for Spain, Czech Republic, Estonia are: 2.77, 2.29 and 1.99, while for for Denmark it is 1.23, for Belgium 1.45, and for Switzerland it is 1.54. 
 
 Differences in average age vary across countries. The means are  not statistically different  in Austria and in Denmark among Western European countries. In other countries from that group volunteers are younger  on average than non-volunteers. The exception is Sweden where volunteers are older. The histograms reveal in Belgium, Denmark, France, Germany,Switzerland and Luxemberg there are noticebly larger shares of volunteers in the age group of 65-70. In Greece and Portugal average ages in both gropus are not statistically different. In Isreal volunteers are older while in Spain and Italy they are younger on average than non-volunteers. In Czech Republic the averages are not significantly different while in Poland, Estonia and Slovenia volunteers are younger. The differences in average age in these countries are above 2 years what seems to be larger differences than in countries from other groups. In Poland and Estonia there are larger shares of people in the age group 50-55 among volunteers.  In Slovenia the difference is due to smaller share of volunteers older then 70 years. \textbf{[Comment ?]}
@@ -315,10 +319,6 @@ Differences in average age vary across countries. The means are  not statistical
 In many countries the shares of women and men among volunteers and non-volunteers are the same. In France and Germany there are more males involved in voluntering while in Switzerland the share of women among volunteers is larger. In Grecee, Italy and Spain women are more often involved in volunteering than man. There are no gender effect on volunteering in the CEE countries.Volunteers have better subjective health.  In Table \ref{DescT0} we found that smaller fraction of volunteers declare at most fair subjective health. Only in Switzerland, Greece, Isreal and in Portugal the fractions are the same.  Our measure of income takes into account differences in purchesing power parities and economy of scale due to a number of people living in a household. We apply the modifed OECD scale to control for decreasing living cost per person. We find no clear pattern between average income and volunteering. The differences in means are signifcant for Germany, Sweden, Switzerland, Luxemburg, Isreal, Italy and Estonia. In all countries except Sweden average income among volunteers were higher than among non-volunteers. Conditional distributions of equivalized income (Appendix) present a much richer picture. In all Southern and Eastern European countries there are more people with high income among volunteers than among non-volunteers. In  Western Europe, it is observed only for  Austria, Belgium, France, Germany. Sweden presents a unique case - there are more people with low income among volunteers. The distributions for Germany and Luxemburg reveal another interesting phenomenon. Namely, there is a small group of very rich people among non-volunteers that does not exist among volunteers.
 
 Volunteers and volunteers differ according to socio-economic characteristics. Simple logit models confirm this. For each country education is significant variable explaining selection into volunteering. In majority of countries there is a selection according to age and subjective health, also. 
-
-\subsubsection{Determinants of volunteering}
-
-
 
 %%%%%%%%%%%%%%%%%%  LOGIT %%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -393,28 +393,22 @@ Separate models for each country are:
 \end{spacing}
 %%% END: TABLE
 
-Volunteering has a positive impact on QoL regardles the approach has been chosen. The multilevel model estimated is 0.91 [{\bf TODO:} what is that??] and is it statistically significant at the level less than 1\%. The fixed effect approach estimates range from 0.28 for Denmark to 1.84 for Italy. All coefficients are significant except the one for Luxemburg. The high point estimates are for the low rate countries such as: Greece, Italy, Spian, Isreal, Poland, Estonia. The low estimates are for: Denmark, Belgium, Germany, Switzerland and Czech Republic. \\
-
 Estimates on the control socio-economics variables have expected signs. Better subjective health and higher income increase QoL. Age is positively related to QoL in rich countries - Belgium, Danmark, Germany, Isreal, Luxemburg - and negatively in Austria, Greece, Spain, Sweden, Czech Rep.,  Slovenia, Estonia. In Poland, Switzerland, Portugal, France, Italy the age variable has appeared to be insignificant. In the random effect approach the age effect  showed up with the minus sign. The female effect turned out to have different sign among the analysed countries, also.  It has shown higher impact for women in two Nordic countries--Denmark and Sweden--and in Estonia. Average effect from the random effect approach suggests lower impact for women. In majority of countries education showed positive effect on QoL. Only in Austria, Denmark, Sweden we get statistically significant negative values. Income has either positive effect or it has no effect on QoL. \\ 
 
 \begin{figure}[H]
 \centering
-\caption{Expected casp from pooling model \textbf{popraw format}} 
+\caption{Expected casp from pooling model } 
 \label{fig:pooling1}
 \begin{minipage}{1\linewidth}
-\subfloat[Predictive casp]{\includegraphics[height=2.7in]{pooling.pdf}}\quad
-\subfloat[Change in predictive casp]{\includegraphics[height=2.7in]{d_casp_pooling.pdf}}~\\
+\subfloat[Predicted casp]{\includegraphics[height=2.47in]{pooling.pdf}}\quad
+\subfloat[Change in predicted casp]{\includegraphics[height=2.4in]{d_casp_pooling.pdf}}~\\
 
 \end{minipage}
 \end{figure}
 
 
 [{\bf TODO:} rephraze this chunk here] 
-The results are consistent with the previouse finding on nonlinear effect of economic development on an impact of volunteering on QoL. We find higher effect in Italy, Greece, Isreal than in Poland, Denmark and Switzerland. This  is consistent with \citet{haski09} and with unconditional analysis with the Kendall's correlations. This is not very suprising since we do not control for differences in within group characteristics. So far, we know that volunteers have higher QoL but we do not know whether it is becouse they are active as volunteers or becouse they are generally have higher QoL. Positive estmiates on volunteering variable suggests that volunteering does have positive impact on QoL. In order to see how strong is that effect and whether it is different among countries we apply Juhn-Murphy-Pierce decomposition. 
-
-\subsection*{Decomposition into endowment and price effect (JMP)}
-
-Suppose that casp for volunteers and non-volunteers can be expressed by two separate equations:
+The results are consistent with the previouse finding on nonlinear effect of economic development on an impact of volunteering on QoL. We find higher effect in Italy, Greece, Isreal than in Poland, Denmark and Switzerland. This  is consistent with \citet{haski09} and with unconditional analysis with the Kendall's correlations. This is not very suprising since we do not control for differences in within group characteristics. So far, we know that volunteers have higher QoL but we do not know whether it is becouse they are active as volunteers or becouse they are generally have higher QoL. Positive estmiates on volunteering variable suggests that volunteering does have positive impact on QoL. In order to see how strong is that effect and whether it is different among countries we apply Juhn-Murphy-Pierce decomposition. To do that we suppose that casp for volunteers and non-volunteers can be expressed by two separate equations:
 
   \begin{eqnarray}
 	casp_{vi}= X_{vi}\beta_{vi}+ \epsilon_{vi}
@@ -432,8 +426,7 @@ where $F^{-1}(.)$ is the inverse of the cumulative distribution function. Assumi
 	casp^{H}_{0i}= X_{0i}\beta+ F^{-1}(p_{0i}|X_{0i}) \label{eq:2}
  \end{eqnarray}
 
-Let equation \ref{eq:1} denote as $casp^{H}_{1i}(\beta,F|X_{1i})$ and equation \ref{eq:2} denote as $casp^{H}_{0i}(\beta,F|X_{0i})$. Also, we may define $casp^{H}_{vi}(F|\beta_{v},X_{vi})$ where quantities $X$ and prices $ \beta_{v}$ are different but the residual distributions are the same. Then, we may define $ casp_{vi}(\beta_{v},F_{v})$ that denotes the original values. For those we use just short notation  $casp_{vi}$.
-Let notice that:
+Let equation \ref{eq:1} denote as $casp^{H}_{1i}(\beta,F|X_{1i})$ and equation \ref{eq:2} denote as $casp^{H}_{0i}(\beta,F|X_{0i})$. Also, we may define $casp^{H}_{vi}(F|\beta_{v},X_{vi})$ where quantities $X$ and prices $ \beta_{v}$ are different but the residual distributions are the same. Then, we may define $ casp_{vi}(\beta_{v},F_{v})$ that denotes the original values. For those we use short notation  $casp_{vi}$. It may be observed that:
 
 \begin{enumerate}
 
@@ -445,22 +438,23 @@ Let notice that:
 
 \end{enumerate}
 
-Finally  we may write:
+what leads to:
+
   \begin{eqnarray} 
 	E[casp_{1}]-E[casp_{0}]= E(X_{1},X_{0}) +  V(\beta_{0},\beta_{1}) +  V(F_{0},F_{1})
  \end{eqnarray}
 
 
-The three components are presented below:
+The three components - endowmenst effect, volunteering effect and unobservables effect - are presented below:
 
 
 \begin{figure}[H]
 \centering
-\caption{JMP Decomposition.} 
+\caption{Decomposition of mean differences (Volunteers - Nonvolunteers)} 
 \label{fig:pooling1}
 \begin{minipage}{1\linewidth}
-\subfloat[JMP decomposition]{\includegraphics[height=2.7in]{ols_margins.pdf}}\quad
-\subfloat[Volunteering effect (price) on casp. ]{\includegraphics[height=2.7in]{vol_margins.pdf}}~\\
+\subfloat[JMP decomposition.]{\includegraphics[height=2.4in]{ols_margins.pdf}}\quad
+\subfloat[Volunteering effect on casp. ]{\includegraphics[height=2.4in]{vol_margins.pdf}}~\\
 
 \end{minipage}
 \end{figure}
@@ -619,16 +613,16 @@ Ehlers, Anja; Naegele, Gerhard; Reichert, Monika
 \end{figure}
 
 %%% TABLE: Kendall tau-b
+\begin{tiny} 
 \begin{spacing}{.9}
 	 \input{Kendall_caspTtest.tex}
       \label{KendallCasp} 
 \end{spacing}
+\end{tiny}
 %%%% END: TABLE
 
 
-
 %%%%%%%%%%%%%%%%%%%  DESCRIPTIVES %%%%%%%%%%%%%%%%%%%%%%%%%
-
  
 
 % Age distribution
@@ -640,26 +634,26 @@ Ehlers, Anja; Naegele, Gerhard; Reichert, Monika
 \end{figure}
 
 
-%%% TABLE
-\begin{spacing}{.9}
-\centering 
-\begin{scriptsize} 
-	 \input{Stat_edu.tex}
-      \label{StatEdu} 
-\end{scriptsize}
-\end{spacing}
-%%%% END: TABLE
-
-
-%%% TABLE
-\begin{spacing}{.9}
-\centering 
-\begin{scriptsize} 
-	 \input{Stat_health.tex}
-      \label{StatHealth} 
-\end{scriptsize}
-\end{spacing}
-%%%% END: TABLE
+%%%% TABLE
+%\begin{spacing}{.9}
+%\centering 
+%\begin{scriptsize} 
+%	 \input{Stat_edu.tex}
+%      \label{StatEdu} 
+%\end{scriptsize}
+%\end{spacing}
+%%%%% END: TABLE
+%
+%
+%%%% TABLE
+%\begin{spacing}{.9}
+%\centering 
+%\begin{scriptsize} 
+%	 \input{Stat_health.tex}
+%      \label{StatHealth} 
+%\end{scriptsize}
+%\end{spacing}
+%%%%% END: TABLE
 
 
 \begin{figure}[H]
@@ -667,8 +661,8 @@ Ehlers, Anja; Naegele, Gerhard; Reichert, Monika
 \caption{Income and volunteering} 
 \label{fig:casp_ols}
 \begin{minipage}{1\linewidth}
-\subfloat[Southern and Central Europe]{\includegraphics[height=2.7in]{hist_incCEE.pdf}}\quad
-\subfloat[Western Europe]{\includegraphics[height=2.7in]{hist_incWE.pdf}}~\\ 
+\subfloat[Southern and Central Europe]{\includegraphics[height=2.4in]{hist_incCEE.pdf}}\quad
+\subfloat[Western Europe]{\includegraphics[height=2.4in]{hist_incWE.pdf}}~\\ 
 {\footnotesize Notes: }~\\
 {\footnotesize Source: Own calculations based on SHARE Wave 6.}
 \end{minipage}
