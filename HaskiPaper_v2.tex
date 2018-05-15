@@ -17,7 +17,8 @@
 pdftex]{graphicx} %draft is a way to exclude figures                
 %\usepackage{epstopdf}
 \usepackage{hyperref}                             % For creating hyperlinks in cross references
- 
+
+
 % \usepackage[margins]{trackchanges}
 
 % \note[editor]{The note}
@@ -224,26 +225,13 @@ The low rates in Southern and Eastern Europe may be partly due to tight family b
 Table \ref{CaspTtest} shows that the average levels of quality of life among volunteers are higher than among nonvolunteers in all countries. The highest values of casp are for volunteers in Denmark, Austria and Switzerland. The lowest values for non-volunteers in Greece, Portugal and Italy.
 
 
-%%% TABLE
-%\begin{spacing}{.9}
-%\centering 
-%\begin{scriptsize} 
-%	 \input{caspTtest.tex}
-%      \label{CaspTtest} 
-%\end{scriptsize}
-%\end{spacing}
-%%%%% END: TABLE
-
-
-% W caspTtest \begin{table}[htp] zamien na \begin{table}[H]
-\begin{table}[H]
 \begin{spacing}{.9} 
 \begin{scriptsize} 
 	 \input{caspTtest.tex}
       \label{CaspTtest} 
 \end{scriptsize}
 \end{spacing}
-\end{table}
+
 
 \begin{center}
 \captionof{figure}{Average CASP for volunteers - average CASP for non-volunteers}
@@ -266,7 +254,7 @@ We use the Kendall's tau-b correlation coefficient to describe the association b
 
 \begin{figure}[H]
 \centering
-\caption{Correlations between volunteering and subjective wellbeing.}  
+\caption{Volunteering and subjective well-being.}  
 \label{fig:taub}
 \begin{minipage}{1\linewidth}
 \subfloat[Life satisfaction \citep{haski09}]{\includegraphics[height=2.4in]{Haski_lifesat.pdf}}\quad
@@ -298,7 +286,6 @@ However, it is possible that the low associations observed in these countries ar
  \caption{Descriptive statistics - Western Europe}
 	 \input{descTtest0WE}
       \label{DescT0WE} 
-
 \end{spacing}
 \end{table}
 
@@ -309,7 +296,6 @@ However, it is possible that the low associations observed in these countries ar
  \caption{Descriptive statistics - Southern and Central Europe}
 	 \input{descTtest0CEE}
       \label{DescT0CEE} 
-
 \end{spacing}
 \end{table}
 Both groups are different in their socio-economic characteristics. In all countries volunteers have better formal education (higher average number of years of education). Everywhere the shares of people with tertiary education are higher among volunteers, while the shares of people with primary education are lower. In countries with low volunteering the differences in a education structure are larger. In Poland the ratio of a share of people with a tertiary  education among volunteers over a share of such people among non-volunteers is 3.49. The respective ratios for Spain, Czech Republic, Estonia are: 2.77, 2.29 and 1.99, while for for Denmark it is 1.23, for Belgium 1.45, and for Switzerland it is 1.54. 
@@ -373,10 +359,10 @@ Separate models for each country are:
 \begin{table}[H]
 \centering 
 \caption{CASP vs. volunteering (OLS)- CEE and SE countries}  
-\begin{small} 
+\begin{scriptsize} 
 	 \input{regCEE.tex}
       \label{pooling} 
-\end{small}
+\end{scriptsize}
 \end{table}
 \end{spacing}
 %%% END: TABLE
@@ -385,10 +371,10 @@ Separate models for each country are:
 \begin{table}[H]
 \centering 
 \caption{CASP vs. volunteering (OLS)- WE countries}  
-\begin{small} 
+\begin{scriptsize} 
 	 \input{regWE.tex}
       \label{pooling} 
-\end{small}
+\end{scriptsize}
 \end{table}
 \end{spacing}
 %%% END: TABLE
@@ -454,7 +440,7 @@ The three components - endowmenst effect, volunteering effect and unobservables 
 \label{fig:pooling1}
 \begin{minipage}{1\linewidth}
 \subfloat[JMP decomposition.]{\includegraphics[height=2.4in]{ols_margins.pdf}}\quad
-\subfloat[Volunteering effect on casp. ]{\includegraphics[height=2.4in]{vol_margins.pdf}}~\\
+\subfloat[Volunteering effect on CASP. ]{\includegraphics[height=2.4in]{vol_margins.pdf}}~\\
 
 \end{minipage}
 \end{figure}
@@ -612,15 +598,27 @@ Ehlers, Anja; Naegele, Gerhard; Reichert, Monika
 \caption{Distribution of CASP by countries}
 \end{figure}
 
-%%% TABLE: Kendall tau-b
-\begin{tiny} 
-\begin{spacing}{.9}
-	 \input{Kendall_caspTtest.tex}
-      \label{KendallCasp} 
-\end{spacing}
-\end{tiny}
-%%%% END: TABLE
+%%%% TABLE: Kendall tau-b
+%\begin{tiny} 
+%\begin{spacing}{.9}
+%	 \input{Kendall_caspTtest.tex}
+%      \label{KendallCasp} 
+%\end{spacing}
+%\end{tiny}
+%%%%% END: TABLE
 
+%%% TABLE: Kendall tau-b
+
+\begin{table}[H]
+\begin{scriptsize} 
+\begin{spacing}{.9}
+	 \input{Taub.tex}
+      \label{KendallCasp} 
+      \caption{Signifcance tests for differences of Kendall tau-b (p-values)}
+\end{spacing}
+\end{scriptsize}
+\end{table}
+%%%% END: TABLE
 
 %%%%%%%%%%%%%%%%%%%  DESCRIPTIVES %%%%%%%%%%%%%%%%%%%%%%%%%
  
@@ -634,92 +632,6 @@ Ehlers, Anja; Naegele, Gerhard; Reichert, Monika
 \end{figure}
 
 
-%%%% TABLE
-%\begin{spacing}{.9}
-%\centering 
-%\begin{scriptsize} 
-%	 \input{Stat_edu.tex}
-%      \label{StatEdu} 
-%\end{scriptsize}
-%\end{spacing}
-%%%%% END: TABLE
-%
-%
-%%%% TABLE
-%\begin{spacing}{.9}
-%\centering 
-%\begin{scriptsize} 
-%	 \input{Stat_health.tex}
-%      \label{StatHealth} 
-%\end{scriptsize}
-%\end{spacing}
-%%%%% END: TABLE
-
-
-\begin{figure}[H]
-\centering
-\caption{Income and volunteering} 
-\label{fig:casp_ols}
-\begin{minipage}{1\linewidth}
-\subfloat[Southern and Central Europe]{\includegraphics[height=2.4in]{hist_incCEE.pdf}}\quad
-\subfloat[Western Europe]{\includegraphics[height=2.4in]{hist_incWE.pdf}}~\\ 
-{\footnotesize Notes: }~\\
-{\footnotesize Source: Own calculations based on SHARE Wave 6.}
-\end{minipage}
-\end{figure} 
-
-%%%%%%%%%%%%%%%%%%  TAU %%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%% TABLE
-%\begin{spacing}{.9}
-%	 \input{tau_health.tex}
-%      \label{tauH} 
-%\end{spacing}
-%%%%% END: TABLE
-
-%%% TABLE
-%\begin{spacing}{.9}
-%	 \input{Kendall_casp.tex}
-%      \label{KendallCasp} 
-%\end{spacing}
-%%%% END: TABLE
-
-
-
-
-%\section{Statistical Appendix}
-%
-%Mean decomposition for a fixed-effect model \\
-% \begin{eqnarray}
-%	casp_{i,c}= \beta_{0c}+ \beta_{1c}*v_{i,c} + \gamma_{c}*Z_{i,c} + \epsilon_{i,c}
-% \end{eqnarray}
-%
-%\[ E[casp_{c}|v_{i,c}=1]= \beta_{0c}+\beta_{1c} + \gamma_{c}*E[Z_{c}|v_{i,c}=1]=\beta_{0c}+\beta_{1c} + \gamma_{c}*\bar{Z}_{c}(1) \]	\\
-%	
-%\[	E[casp_{c}|v_{i,c}=0]= \beta_{0c}+ \gamma_{c}*E[Z_{c}|v_{i,c}=0]=\beta_{0c}+ \gamma_{c}*\bar{Z}_{c}(0) \] \\
-%	
-%\[	E[casp_{c}|v_{i,c}=1] - E[casp_{c}|v_{i,c}=0]= \beta_{1c}+ \gamma_{c}*[\bar{Z}_{c}(1)-\bar{Z}_{c}(0)]
-%\] \\
-%
-%Mean decomposition for a random-effect model \\
-%
-% \begin{eqnarray}
-%	casp_{i,c}=\beta_{0}+  \beta_{1c}(r_{c})* vol_{i,c}+\gamma*Z_{i,c} + \epsilon_{i,c} 
-% \end{eqnarray}
-%
-%where: 
-% \begin{eqnarray}
-%		\beta_{1} \sim N(\gamma_{1r}ln(r_{c}),\sigma^{2}_{r})
-% \end{eqnarray}
-%
-%$[E[casp_{c}|v_{i,c}=1]= \beta_{0}+E[\beta_{1}(r_{c})|v_{i,c}=1] + \gamma*E[Z_{c}|v_{i,c}=1]+ E[\epsilon_{i,c}|v_{i,c}=1]=$ \\
-%\\
-%$=\beta_{0}+ [\beta_{1}+u_{r}(c)]+\gamma*\bar{Z}_{c}(1) + \bar{\epsilon}_{i,c}(1) $
-%\\ 
-%  
-%\[E[casp_{c}|v_{i,c}=0]= \beta_{0}+ \gamma*E[Z_{c}|v_{i,c}=0] + E[\epsilon_{i,c}|v_{i,c}=0] = \beta_{0}+  \gamma*\bar{Z}_{c}(0) + \bar{\epsilon}_{i,c}(0) \]
-%
-%\[E[casp_{c}|v_{i,c}=1]-E[casp_{c}|v_{i,c}=0]= [\beta_{1}+u_{r}(c)]+ \gamma*(\bar{Z}_{c}(1)-\bar{Z}_{c}(0))+ [\bar{\epsilon}_{i,c}(1)-\bar{\epsilon}_{i,c}(0)] \]
 
 \end{spacing}
 \end{spacing}
